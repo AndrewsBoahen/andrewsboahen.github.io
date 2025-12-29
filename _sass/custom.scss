@@ -1,0 +1,21 @@
+/* Tighten spacing in News section */
+.news {
+  margin-bottom: 1rem; /* Reduce overall section bottom margin */
+}
+
+.news h3 {
+  margin-bottom: 1rem; /* Space below "News" heading */
+}
+
+.news ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.news li {
+  margin-bottom: 0.4rem; /* Main control: reduce space between items */
+  padding-bottom: 0.2rem;
+}
+
+/* Optional: even tighter */
+/* .news li { margin-bottom: 0.2rem; } */
