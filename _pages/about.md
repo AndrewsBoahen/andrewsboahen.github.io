@@ -28,6 +28,8 @@ Prior to my current position, I obtained a MSc. in Mathematical Sciences with di
 - **[June 2024]** Selected as a [Summer 2024 Sustainable Research Pathways (SRP) Fellow](https://shinstitute.org/andrews-boahen/) for an internship at [Sandia National Laboratories](https://www.sandia.gov).
 
 - **[April 2024]** Helped host the lab event *"🎲 Rolling the Dice: Unveiling Normal Distributions"* as part of the MSU Science Festival — a fun, hands-on booth teaching normal distributions through interactive games.
+
+
 **Contact me** at boahenan@msu.edu 
 
 
