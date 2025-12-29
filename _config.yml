@@ -9,13 +9,13 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Your Name / Site Title"
+title                    : "Andrews Boahen"
 title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "personal description"
-url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
+name                     : &name "Andrews Boahen"
+description              : &description "Hi, I'm Andrews Boahen! I am a Ph.D candidate in the department of Statistics & Probability, at Michigan State University. I am honored to have Dr. Chih-Li Sung as my advisor and my reserach interests include \textbf{Uncertainty quantification, Bayesian inverse problems, Monte carlo inference, active learning} and \textbf{optimization under uncertainty}. Application areas include computer experiments, engineering sciences, digital twins and mission-critical physical systems. "
+url                      : https://andrewsboahen.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "AKB-UncertaintyHunterX/AKB-UncertaintyHunterX.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
