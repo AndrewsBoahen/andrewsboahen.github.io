@@ -33,10 +33,9 @@ Prior to my current position, I obtained a MSc. in Mathematical Sciences with di
 
 
 
--------------
--------------
+
 -------------
 **Contact me** at boahenan@msu.edu 
-
+<hr style="border-top: 1px solid #bbb; margin: 3rem 0;">
 
 
