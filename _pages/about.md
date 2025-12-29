@@ -11,7 +11,7 @@ Hi! I am Andrews Boahen, a Ph.D. Candidate in the [department of Statistics & Pr
 
 Prior to my current position, I obtained a MSc. in Mathematical Sciences with distinction from the African Institute for Mathematical Sciences ([AIMS-GHANA](https://aims.edu.gh)) and graduated with a first class in BSc. Actuarial Science from the [department of Statistics & Actuarial Science](https://www.ug.edu.gh/statistics/home) at the [University of Ghana](https://www.ug.edu.gh). At AIMS-GHANA, my research involved establishing [large deviation principles for telecommunication systems under the boolean model in the \(\tau$-topology\)](https://www.tarupublications.com/doi/10.47974/JIOS-1338), whereas my honors project at the university of Ghana consisted in pricing European put options via genetic algorithm. Both research were conducted under the expert supervision of [Prof. kwabena Doku-Amponsah](https://www.ug.edu.gh/statistics/news/meet-first-full-professor-probability-theory-university-ghana)
 
-### News
+## News
 
 - **[August 2025]** Selected as Graduate Student Instructional Leader in the [Department of Statistics & Probability](https://stt.natsci.msu.edu) at Michigan State University for Fall 2025.
 
