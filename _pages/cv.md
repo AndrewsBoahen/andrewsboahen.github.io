@@ -10,7 +10,7 @@ redirect_from:
 {% include base_path %}
 
 ## Download CV (Industry)
-**[Download Full CV (PDF)]({{ site.baseurl }}/files/Boahenan_CV.pdf)**  
+**[Download Full CV (PDF)]({{ site.baseurl }}/files/Boahenan_CV_Internship.pdf)**  
 *(Updated December 2025 — tailored for internships/industry roles)*
 
 
