@@ -30,6 +30,13 @@ Prior to my current position, I obtained a MSc. in Mathematical Sciences with di
 - **[April 2024]** Helped host the lab event *"🎲 Rolling the Dice: Unveiling Normal Distributions"* as part of the MSU Science Festival — a fun, hands-on booth teaching normal distributions through interactive games.
 
 
+
+
+
+
+
+
+
 **Contact me** at boahenan@msu.edu 
 
 
