@@ -3,7 +3,7 @@ title: "Large deviations for spatial telecommunication systems: The boolean mode
 collection: publications
 category: manuscripts
 permalink: /publication/boolean
-excerpt: ''
+excerpt: ' '
 date: 2025-05-22
 venue: 'Journal of Information and Optimization Sciences'
 paperurl: 'http://academicpages.github.io/files/jios-1338.pdf'
