@@ -17,19 +17,19 @@
   padding-bottom: 0.2rem;
 }
 
-/* Hide breadcrumbs completely */
-.breadcrumbs {
+/* Hide breadcrumb trail completely */
+.breadcrumbs,
+.page__breadcrumbs,
+nav.breadcrumbs,
+.trail,
+.path-trail {
   display: none !important;
 }
 
-/* Alternative: If above doesn't catch it, target the nav path */
-.page__header nav {
+/* Extra safety for Primer-style numbered trails */
+ol.breadcrumbs,
+ul.breadcrumbs {
   display: none !important;
-}
-
-/* Clean up top spacing after hiding */
-.page__header {
-  margin-bottom: 2rem;
 }
 
 /* Optional: even tighter */
