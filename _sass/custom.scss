@@ -17,5 +17,20 @@
   padding-bottom: 0.2rem;
 }
 
+/* Hide breadcrumbs completely */
+.breadcrumbs {
+  display: none !important;
+}
+
+/* Alternative: If above doesn't catch it, target the nav path */
+.page__header nav {
+  display: none !important;
+}
+
+/* Clean up top spacing after hiding */
+.page__header {
+  margin-bottom: 2rem;
+}
+
 /* Optional: even tighter */
 /* .news li { margin-bottom: 0.2rem; } */
