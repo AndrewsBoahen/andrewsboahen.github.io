@@ -6,7 +6,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-{: .notice--primary .large-quote}
+{: .notice--success .large-quote}
 "We are a sum total of what we have learned from all who have taught us, both great and small."~ *Dr. Myles munroe* 
 
 Hi! I am Andrews Boahen, a Ph.D. Candidate in the [department of Statistics & Probability](https://stt.natsci.msu.edu) at Michigan State University. I am privileged to explore and develop novel methods in computer model calibration and active learning under the guidance of [Dr. Chih-Li Sung](https://chihli.github.io). My research interests span the topics of **Uncertainty quantification, Bayesian inverse problems, Monte carlo inference, active learning** and **optimization under uncertainty** with application areas from computer experiments and engineering sciences to digital twins and mission-critical physical systems.
