@@ -99,3 +99,9 @@ ul.breadcrumbs {
   margin-left: 0;
 }
 
+/* === Disable Minimal Mistakes automatic archive numbering === */
+.list__item::before,
+.archive__item::before {
+  content: none !important;
+  counter-increment: none !important;
+}
