@@ -92,3 +92,10 @@ ul.breadcrumbs {
   text-decoration: underline;
 }
 
+.publication-content ol,
+.publication-content ul {
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
