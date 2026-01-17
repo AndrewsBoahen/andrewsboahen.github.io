@@ -36,31 +36,27 @@ ul.breadcrumbs {
 /* .news li { margin-bottom: 0.2rem; } */
 /* Remove top spacing inside numbered publications */
 
+/* === FINAL publication spacing tuning === */
+
+/* Tighten title spacing */
+.publication-content .archive__item-title {
+  margin-top: 0 !important;
+  margin-bottom: 0.15rem !important;
+}
+
+/* Tighten metadata spacing */
+.publication-content .archive__item-excerpt,
+.publication-content p {
+  margin-top: 0.1rem;
+  margin-bottom: 0.2rem;
+}
+
+/* Reduce space between publications */
 .publication-item {
-  display: flex;
-  align-items: flex-start;   /* aligns number with title */
-  gap: 0.0rem;               /* controls space between number and title */
-  margin-bottom: 0.0em;
+  margin-bottom: 0.6rem;
 }
 
-.publication-number {
-  flex-shrink: 0;
-  margin: 0;
-  padding: 0;
-}
-
+/* Optional: slightly reduce line height for compact look */
 .publication-content {
-  margin: 0;
+  line-height: 1.45;
 }
-
-.publication-number {
-  width: 0rem;
-  text-align: right;
-}
-
-.large-quote {
-  font-size: 5.25em;
-}
-
-
-
