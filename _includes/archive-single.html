@@ -37,10 +37,16 @@
 
   <div class="publication-content">
 
-    <!-- Title -->
-    <div class="pub-title">
-      {{ item.title }}
-    </div>
+   <div class="pub-title">
+  {% if post.paperurl %}
+    <a href="{{ post.paperurl }}" target="_blank" rel="noopener">
+      {{ post.title }}
+    </a>
+  {% else %}
+    {{ post.title }}
+  {% endif %}
+</div>
+
 
     <!-- Authors + year -->
     {% if item.authors %}
