@@ -6,7 +6,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-{: .notice--info}
+{: .notice--primary}
 "We are a sum total of what we have learned from all who have taught us, both great and small."
 — *Dr. Myles munroe*
 
