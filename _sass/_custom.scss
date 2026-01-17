@@ -38,6 +38,10 @@ ul.breadcrumbs {
 
 /* === FINAL publication spacing tuning === */
 
+.publication-item {
+  display: flex;
+}
+
 /* Tighten title spacing */
 .publication-content .archive__item-title {
   margin-top: 0 !important;
