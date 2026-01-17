@@ -38,29 +38,48 @@ ul.breadcrumbs {
 
 /* === FINAL publication spacing tuning === */
 
+/* === FORCE number + title on same line === */
+
 .publication-item {
-  display: flex;
+  display: flex !important;
+  align-items: flex-start;
+  gap: 0.4rem;
+  margin-bottom: 0.6rem;
+}
+
+/* Number styling */
+.publication-number {
+  flex: 0 0 auto;
+  width: 1.6rem;
+  text-align: right;
+  line-height: 1.4;
+}
+
+/* Prevent archive block from breaking layout */
+.publication-content {
+  flex: 1 1 auto;
+  margin: 0 !important;
+}
+
+/* Kill all top margins inside archive */
+.publication-content .archive__item,
+.publication-content .archive__item-title {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
 }
 
 /* Tighten title spacing */
 .publication-content .archive__item-title {
-  margin-top: 0 !important;
   margin-bottom: 0.15rem !important;
 }
 
 /* Tighten metadata spacing */
-.publication-content .archive__item-excerpt,
 .publication-content p {
   margin-top: 0.1rem;
   margin-bottom: 0.2rem;
 }
 
-/* Reduce space between publications */
-.publication-item {
-  margin-bottom: 0.6rem;
-}
-
-/* Optional: slightly reduce line height for compact look */
+/* Compact line height */
 .publication-content {
   line-height: 1.45;
 }
