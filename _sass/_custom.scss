@@ -109,3 +109,18 @@ ul.breadcrumbs {
 .page__content ol > li {
   list-style-type: none !important;
 }
+
+/* ======================================
+   Restart numbering per publication type
+   ====================================== */
+
+/* Each section heading resets the counter */
+.page__content h2 {
+  counter-reset: archive-item;
+}
+
+/* Ensure archive items increment correctly */
+.archive__item::before {
+  counter-increment: archive-item;
+}
+
