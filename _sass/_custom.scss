@@ -41,6 +41,20 @@ ul.breadcrumbs {
 /* === FORCE number + title on same line === */
 
 
+.publication-item {
+  display: flex !important;
+  align-items: flex-start;
+  gap: 0.4rem;
+  margin-bottom: 0.6rem;
+}
+
+/* Number styling */
+.publication-number {
+  flex: 0 0 auto;
+  width: 1.6rem;
+  text-align: right;
+  line-height: 1.4;
+}
 /* Prevent archive block from breaking layout */
 .publication-content {
   flex: 1 1 auto;
