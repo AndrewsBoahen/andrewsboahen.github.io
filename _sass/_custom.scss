@@ -92,3 +92,19 @@ ul.breadcrumbs {
   text-decoration: underline;
 }
 
+/* === KILL REAL <ol> NUMBERING IN PUBLICATIONS (ROOT CAUSE FIX) === */
+
+/* Minimal Mistakes archive lists */
+.page__content ol,
+.page__content .archive ol,
+.page__content .archive__list,
+.page__content .archive__list ol {
+  list-style: none !important;
+  padding-left: 0 !important;
+  margin-left: 0 !important;
+}
+
+/* Extra safety: kill numbering on list items themselves */
+.page__content ol > li {
+  list-style-type: none !important;
+}
