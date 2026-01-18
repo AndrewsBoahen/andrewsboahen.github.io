@@ -92,26 +92,3 @@ ul.breadcrumbs {
   text-decoration: underline;
 }
 
-
-.publication-content ul {
-  list-style: none;
-  padding-left: 0;
-  margin-left: 0;
-}
-
-/* Remove Minimal Mistakes automatic numbering */
-.archive__item-title::before,
-.archive__item::before,
-.list__item::before {
-  content: none !important;
-  counter-increment: none !important;
-  margin-right: 0 !important; /* in case there’s extra spacing */
-  width: auto !important;
-}
-
-/* === Disable Minimal Mistakes automatic archive numbering === */
-.list__item::before,
-.archive__item::before {
-  content: none !important;
-  counter-increment: none !important;
-}
