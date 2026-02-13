@@ -17,6 +17,8 @@ Prior to my current position, I obtained a MSc. in Mathematical Sciences with di
 ## News
 
 <div class="news" markdown="1">
+
+- **[Mar 2026] I will be given a talk at [SIAM UQ'26](https://www.siam.org/conferences-events/siam-conferences/uq26/) in the [Deep Gaussian Process Surrogates](https://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=85970) Session. 
   
 - **[Aug 2025]** I am pleased to have been selected as the Graduate Student Instructional Leader in the [Department of Statistics & Probability](https://stt.natsci.msu.edu) at Michigan State University for Fall 2025.
 
