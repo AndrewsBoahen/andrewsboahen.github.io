@@ -34,7 +34,7 @@ Prior to my current position, I obtained a MSc. in Mathematical Sciences with di
 
 - **[Dec 2024]** The technical report *"In Situ Machine Learning For Intelligent Data Capture And Event Detection"* appeared in [CSRI Summer Proceedings 2024](https://www.sandia.gov/app/uploads/sites/210/2024/12/CSRI-2024-proceedings_Final.pdf#page=296).
 
-- **[Jun 2024]** I am deeply honored to have been selecte as a [Summer 2024 Sustainable Research Pathways (SRP) Fellow](https://shinstitute.org/andrews-boahen/) for an internship at [Sandia National Laboratories](https://www.sandia.gov).
+- **[Jun 2024]** I am deeply honored to have been selected as a [Summer 2024 Sustainable Research Pathways (SRP) Fellow](https://shinstitute.org/andrews-boahen/) for an internship at [Sandia National Laboratories](https://www.sandia.gov).
 
 </div>
 
