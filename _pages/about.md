@@ -18,7 +18,7 @@ Prior to my current position, I obtained a MSc. in Mathematical Sciences with di
 
 <div class="news" markdown="1">
 
-- **[Mar 2026]** I will be given a talk at [SIAM UQ'26](https://www.siam.org/conferences-events/siam-conferences/uq26/) in the [Deep Gaussian Process Surrogates](https://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=85970) Session.
+- **[Mar 2026]** I will be giving a talk at [SIAM UQ'26](https://www.siam.org/conferences-events/siam-conferences/uq26/) in the [Deep Gaussian Process Surrogates](https://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=85970) Session.
 
 - **[Feb 2026]** I am honored to receive the  Michigan State University Graduate School Travel Fellowship to present at [SIAM UQ'26](https://www.siam.org/conferences-events/siam-conferences/uq26/).
   
