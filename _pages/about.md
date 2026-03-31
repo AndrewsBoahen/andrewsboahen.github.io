@@ -9,7 +9,7 @@ redirect_from:
 {: .notice--success .large-quote}
 "We are a sum total of what we have learned from all who have taught us, both great and small."~ *Dr. Myles munroe* 
 
-Hi! I am Andrews Boahen, a Ph.D. Candidate in the [department of Statistics & Probability](https://stt.natsci.msu.edu) at Michigan State University. I am privileged to explore and develop novel methods in computer model calibration and active learning under the guidance of [Dr. Chih-Li Sung](https://chihli.github.io). My research interests span the topics of **Uncertainty quantification, Bayesian inverse problems, Monte carlo inference, active learning** and **optimization under uncertainty** with application areas from computer experiments and engineering sciences to digital twins and mission-critical physical systems.
+Hi! I am Andrews Boahen, a Ph.D. Candidate in the [department of Statistics & Probability](https://stt.natsci.msu.edu) at Michigan State University. I am privileged to explore and develop novel methods in computer model calibration, active learning and bayesian optimization under the wonderful guidance of [Dr. Chih-Li Sung](https://chihli.github.io). My research interests span the topics of **Uncertainty quantification, Bayesian inverse problems, Monte carlo inference, active learning** and **optimization under uncertainty** with application areas from computer experiments and engineering sciences to digital twins and mission-critical physical systems.
 
 Prior to my current position, I obtained a MSc. in Mathematical Sciences with distinction from the African Institute for Mathematical Sciences ([AIMS-GHANA](https://aims.edu.gh)) and graduated with a first class in BSc. Actuarial Science from the [department of Statistics & Actuarial Science](https://www.ug.edu.gh/statistics/home) at the [University of Ghana](https://www.ug.edu.gh). At AIMS-GHANA, my research involved establishing [large deviation principles for telecommunication systems under the boolean model in the $\tau$-topology](https://www.tarupublications.com/doi/10.47974/JIOS-1338), whereas my honors project at the university of Ghana consisted in pricing European put options via genetic algorithm. Both research were conducted under the expert supervision of [Prof. kwabena Doku-Amponsah](https://www.ug.edu.gh/statistics/news/meet-first-full-professor-probability-theory-university-ghana) 
 
@@ -17,6 +17,7 @@ Prior to my current position, I obtained a MSc. in Mathematical Sciences with di
 ## News
 
 <div class="news" markdown="1">
+- **[March 2026]** I am delighted to have been selected as a finalist for the [Institute of Mathematical and Statistical Innovation (IMSI) Summer Graduate Student Internship program](https://www.imsi.institute/internships/), and I will be participating in the two-week Spring Coding and Data Science Bootcamp.
 
 - **[Mar 2026]** I will be giving a talk at [SIAM UQ'26](https://www.siam.org/conferences-events/siam-conferences/uq26/) in the [Deep Gaussian Process Surrogates](https://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=85970) Session.
 
