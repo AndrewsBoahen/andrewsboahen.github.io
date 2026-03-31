@@ -17,6 +17,7 @@ Prior to my current position, I obtained a MSc. in Mathematical Sciences with di
 ## News
 
 <div class="news" markdown="1">
+  
 - **[Mar 2026]** I am delighted to have been selected as a finalist for the [Institute of Mathematical and Statistical Innovation (IMSI) Summer Graduate Student Internship program](https://www.imsi.institute/internships/), and I will be participating in the two-week Spring Coding and Data Science Bootcamp.
 
 - **[Mar 2026]** I will be giving a talk at [SIAM UQ'26](https://www.siam.org/conferences-events/siam-conferences/uq26/) in the [Deep Gaussian Process Surrogates](https://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=85970) Session.
