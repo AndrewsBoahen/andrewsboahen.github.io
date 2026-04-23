@@ -17,6 +17,8 @@ Prior to my current position, I obtained a MSc. in Mathematical Sciences with di
 ## News
 
 <div class="news" markdown="1">
+
+- **[Apr 2026]** Visit my [interactive platform for conformal prediction tasks](https://andrewsboahenmyconformalprediction.streamlit.app/). This was an assignment for an intro to Python class I enrolled in this semester.
   
 - **[Mar 2026]** I am delighted to have been selected as a finalist for the [Institute of Mathematical and Statistical Innovation (IMSI) Summer Graduate Student Internship program](https://www.imsi.institute/internships/), and I will be participating in the two-week Spring Coding and Data Science Bootcamp.
 
