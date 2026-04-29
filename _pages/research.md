@@ -27,7 +27,7 @@ encodes full uncertainty over plausible reconstructions. My work focuses on deve
 **Topics:** Computer Model Calibration  · Tikhonov–Bayes connections · [pCN algorithms](https://en.wikipedia.org/wiki/Preconditioned_Crank–Nicolson_algorithm) · [posterior consistency](https://andrewcharlesjones.github.io/journal/posterior-consistency.html)
 
 ## Uncertainty quantification 
-Complex computational models, from climate simulators to structural solvers, propagate uncertainty in a way that is rarely tractable analytically. $\color{blue}{\text{UQ provides the mathematical}}$ $\color{blue}{\text{toolkit}}$ to characterise how input $\color{blue}{\text{uncertainty}} p(x)$  maps to output variability $p(y)$ through a black-box or grey-box model $y = f(x)$.}$
+Complex computational models, from climate simulators to structural solvers, propagate uncertainty in a way that is rarely tractable analytically. $\color{blue}{\text{UQ provides the mathematical}}$ $\color{blue}{\text{toolkit}}$ to characterise how $\color{blue}{\text{input uncertainty,}} p(x)$  maps to $\color{blue}{\text{output variability, p(y)}}$ through a black-box or grey-box model $y = f(x)$.
  
 My research addresses both:
 - $\color{blue}{\text{Forward propagation:}}$  using surrogate modelling (typically GPs but trying to learn more about polynomial chaos expansions and neural networks nowadays) to push distributions through expensive simulators.
@@ -39,7 +39,7 @@ I am particularly interested in settings where $f$ is expensive to evaluate, cou
 **Topics:** Gaussian Process (and their variants) emulation · Sobol' indices · error propagation · conformal prediction
 
 ## Bayesian Optimization Optimization under uncertainty
-When the objective $f: \mathcal{X} \to \mathbb{R}$ is expensive, noisy, or lacks a known gradient, classical optimisation methods are inapplicable. $\color{blue}{\text{Bayesian optimisation (BO) maintains a probabilistic}}$ $\color{blue}{ \text{surrogate (typically a GP,} $f \sim \mathcal{GP}(\mu, k)$) \text{and sequentially queries points}}$ $\color{blue}{\text{that maximise an acquisition function balancing exploration and exploitation,}}$ such as expected improvement
+When the objective $f: \mathcal{X} \to \mathbb{R}$ is expensive, noisy, or lacks a known gradient, classical optimisation methods are inapplicable. $\color{blue}{\text{Bayesian optimisation (BO) maintains}}$ $\color{blue}{\text{a probabilistic surrogate (typically a GP} f \sim \mathcal{GP}(\mu, k)) \text{and}}$ $\color{blue}{\text{sequentially queries points that maximise an acquisition function balancing}}$ $\color{blue}{\text{ exploration and exploitation,}}$ such as expected improvement
  
 $$\mathrm{EI}(x) = \mathbb{E}\!\left[\max(f(x) - f^*, 0)\right].$$
  
