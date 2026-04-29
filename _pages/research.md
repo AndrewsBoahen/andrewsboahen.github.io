@@ -36,22 +36,21 @@ $$S_i = \frac{\mathbb{V}[\mathbb{E}[Y \mid X_i]]}{\mathbb{V}[Y]}$$
  
 I am particularly interested in settings where $f$ is expensive to evaluate, coupling emulator construction with rigorous statistical estimation of uncertainty measures and their confidence intervals.
  
-**Topics:** Gaussian Processe (and their variants) emulation · Sobol' indices · error propagation · conformal prediction
+**Topics:** Gaussian Process (and their variants) emulation · Sobol' indices · error propagation · conformal prediction
 
 ## Bayesian Optimization Optimization under uncertainty
-*Sequential design · Gaussian processes · Acquisition functions*
- 
-When the objective $f: \mathcal{X} \to \mathbb{R}$ is expensive, noisy, or lacks a known gradient, classical optimisation methods are inapplicable. Bayesian optimisation (BO) maintains a probabilistic surrogate — typically a Gaussian process $f \sim \mathcal{GP}(\mu, k)$ — and sequentially queries points that maximise an acquisition function balancing exploration and exploitation, such as expected improvement
+When the objective $f: \mathcal{X} \to \mathbb{R}$ is expensive, noisy, or lacks a known gradient, classical optimisation methods are inapplicable. Bayesian optimisation (BO) maintains a probabilistic surrogate (typically a GP, $f \sim \mathcal{GP}(\mu, k)$), and sequentially queries points that maximise an acquisition function balancing exploration and exploitation, such as expected improvement
  
 $$\mathrm{EI}(x) = \mathbb{E}\!\left[\max(f(x) - f^*, 0)\right].$$
  
-Beyond standard BO, I am interestedin **optimisation under uncertainty**, where the objective itself involves an expectation over stochastic inputs:
+Beyond standard BO, I am interested in **optimisation under uncertainty**, where the objective itself involves an expectation over stochastic inputs:
  
 $$\min_{x \in \mathcal{X}}\; \mathbb{E}_{\xi}\!\left[F(x, \xi)\right]$$
  
 requiring joint surrogate models over both decision and environmental variables. Applications span experiment design, hyperparameter tuning, and robust engineering design.
  
-**Topics:** acquisition functions · Thompson sampling · robust optimisation · batch BO · multi-fidelity methods
+**Topics:** Sequential design · acquisition functions · [Thompson sampling](https://web.stanford.edu/~bvr/pubs/TS_Tutorial.pdf) · batch BO · 
+<!--multi-fidelity methods-->
  
 ## Active learning
 *Experimental design · Information theory · Surrogates*
