@@ -11,7 +11,7 @@ My research sits at the intersection of $\color{blue}{\text{statistical theory,}
 
 Specifically, my research spans the topics of **Uncertainty quantification, Bayesian inverse problems, Monte carlo inference, Active learning** and **Optimization under uncertainty** with application areas from computer experiments and engineering sciences to digital twins and mission-critical physical systems.
 
- **Keywords:** $\color{green}{\text{Bayesian statistics}}$ · $\color{green}{\text{Monte Carlo methods}}$ · $\color{green}{\text{Inverse problems}}$ · $\color{green}{\text{Gaussian processes}}$ · $\color{green}{\text{Stochastic optimisation}}$ · $\color{green}{\text{Scientific ML}}$
+ **Keywords:** <small> $\color{green}{\text{Bayesian statistics}}$ · $\color{green}{\text{Monte Carlo methods}}$ · $\color{green}{\text{Inverse problems}}$ · $\color{green}{\text{Gaussian \& Deep Gaussian processes}}$ · $\color{green}{\text{Stochastic optimisation}}$ · $\color{green}{\text{Scientific ML}}$ <small>
 
 ## Bayesian inverse problems
 $\color{blue}{\text{Inverse problems ask:}}$ given observations $y = \mathcal{G}(u) + \varepsilon$, can we recover the unknown field or parameter $u$? The forward operator $\mathcal{G}$ is typically a differential equation or physical model, making direct inversion ill-posed in the [Hadamard sense](https://www.statisticshowto.com/well-posed-ill/).
