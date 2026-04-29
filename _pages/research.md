@@ -7,7 +7,7 @@ author_profile: true
 
 
 ## Research Overview
-My research sits at the intersection of $\color{blue}{\text{statistical theory,}}$ $\color{blue}{\text{probabilistic computation,}}$ $\color{blue}{\text{and scientific inference}}$; and involves developing principled frameworks for reasoning under uncertainty in complex, high-dimensional systems. 
+My research sits at the intersection of $\color{blue}{\text{statistical theory,}}$ $\color{blue}{\text{probabilistic computation,}}$ and $\color{blue}{\text{scientific inference}}$; and involves developing principled frameworks for reasoning under uncertainty in complex, high-dimensional systems. 
 
 Specifically, my research spans the topics of **Uncertainty quantification, Bayesian inverse problems, Monte carlo inference, Active learning** and **Optimization under uncertainty** with application areas from computer experiments and engineering sciences to digital twins and mission-critical physical systems.
 
