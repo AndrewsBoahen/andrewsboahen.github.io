@@ -38,8 +38,8 @@ I am particularly interested in settings where $f$ is expensive to evaluate, cou
  
 **Topics:** Gaussian Process (and their variants) emulation · Sobol' indices · error propagation · conformal prediction
 
-## Bayesian Optimization Optimization under uncertainty
-When the objective $f: \mathcal{X} \to \mathbb{R}$ is expensive, noisy, or lacks a known gradient, classical optimisation methods are inapplicable. $\color{blue}{\text{Bayesian optimisation (BO) maintains}}$ $\color{blue}{\text{a probabilistic surrogate (typically a GP} f \sim \mathcal{GP}(\mu, k)) \text{and}}$ $\color{blue}{\text{sequentially queries points that maximise an acquisition function balancing}}$ $\color{blue}{\text{ exploration and exploitation,}}$ such as expected improvement
+## Bayesian Optimization & Optimization under uncertainty
+When the objective $f: \mathcal{X} \to \mathbb{R}$ is expensive, noisy, or lacks a known gradient, classical optimisation methods are inapplicable. $\color{blue}{\text{Bayesian optimisation (BO) maintains}}$ $\color{blue}{\text{a probabilistic surrogate (typically a GP} f \sim \mathcal{GP}(\mu, k)),  \text{and sequentially}}$ $\color{blue}{\text{ queries points that maximise an acquisition function balancing}}$ $\color{blue}{\text{ exploration and exploitation,}}$ such as expected improvement
  
 $$\mathrm{EI}(x) = \mathbb{E}\!\left[\max(f(x) - f^*, 0)\right].$$
  
