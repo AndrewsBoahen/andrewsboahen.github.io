@@ -27,7 +27,7 @@ encodes full uncertainty over plausible reconstructions. My work focuses on deve
 **Topics:** Computer Model Calibration  · Tikhonov–Bayes connections · [pCN algorithms](https://en.wikipedia.org/wiki/Preconditioned_Crank–Nicolson_algorithm) · [posterior consistency](https://andrewcharlesjones.github.io/journal/posterior-consistency.html)
 
 ## Uncertainty quantification 
-Complex computational models, from climate simulators to structural solvers, propagate uncertainty in a way that is rarely tractable analytically. $\color{blue}{\text{UQ provides the mathematical toolkit to characterise how input uncertainty $p(x)$ maps to output variability $p(y)$ through a black-box or grey-box model $y = f(x)$.}}$
+Complex computational models, from climate simulators to structural solvers, propagate uncertainty in a way that is rarely tractable analytically. $\color{blue}{\text{UQ provides the mathematical toolkit to characterise}}$ $\color{blue}{\text{how input uncertainty $p(x)$ maps to output variability $p(y)$ through a black-box or grey-box model $y = f(x)$.}}$
  
 My research addresses both:
 - $\color{blue}{\text{Forward propagation:}}$  using surrogate modelling (typically GPs but trying to learn more about polynomial chaos expansions and neural networks nowadays) to push distributions through expensive simulators.
@@ -39,7 +39,7 @@ I am particularly interested in settings where $f$ is expensive to evaluate, cou
 **Topics:** Gaussian Process (and their variants) emulation · Sobol' indices · error propagation · conformal prediction
 
 ## Bayesian Optimization Optimization under uncertainty
-When the objective $f: \mathcal{X} \to \mathbb{R}$ is expensive, noisy, or lacks a known gradient, classical optimisation methods are inapplicable. $\color{blue}{\text{Bayesian optimisation (BO) maintains a probabilistic surrogate (typically a GP, $f \sim \mathcal{GP}(\mu, k)$), and sequentially queries points that maximise an acquisition function balancing exploration and exploitation,}}$ such as expected improvement
+When the objective $f: \mathcal{X} \to \mathbb{R}$ is expensive, noisy, or lacks a known gradient, classical optimisation methods are inapplicable. $\color{blue}{\text{Bayesian optimisation (BO) maintains a probabilistic surrogate (typically a GP, $f \sim \mathcal{GP}(\mu, k)$),}}$ $\color{blue}{\text{and sequentially queries points that maximise an acquisition function balancing exploration and exploitation,}}$ such as expected improvement
  
 $$\mathrm{EI}(x) = \mathbb{E}\!\left[\max(f(x) - f^*, 0)\right].$$
  
@@ -74,4 +74,4 @@ A central focus is on **convergence guarantees**, bounding the total variation o
  
 ---
  
-> $\color{green}{\text{These areas are deeply interconnected!} Monte Carlo inference underpins Bayesian inverse problems; active learning drives data collection for UQ; Bayesian optimisation uses the same GP machinery as uncertainty propagation.
+> $\color{green}{\text{These areas are deeply interconnected!}}$ Monte Carlo inference underpins Bayesian inverse problems; active learning drives data collection for UQ; Bayesian optimisation uses the same GP machinery as uncertainty propagation.
