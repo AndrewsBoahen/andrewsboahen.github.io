@@ -11,10 +11,10 @@ My research sits at the intersection of $\color{blue}{\text{statistical theory,}
 
 Specifically, my research spans the topics of **Uncertainty quantification, Bayesian inverse problems, Monte carlo inference, Active learning** and **Optimization under uncertainty** with application areas from computer experiments and engineering sciences to digital twins and mission-critical physical systems.
 
- **Keywords:** $\color{green}{\text{Bayesian statistics}}$ · $\color{red}{\text{Monte Carlo methods}}$ · $\color{red}{\text{Inverse problems}}$ · $\color{red}{\text{Gaussian processes}}$ · $\color{red}{\text{Stochastic optimisation}}$ · $\color{red}{\text{Scientific ML}}$
+ **Keywords:** $\color{green}{\text{Bayesian statistics}}$ · $\color{green}{\text{Monte Carlo methods}}$ · $\color{green}{\text{Inverse problems}}$ · $\color{green}{\text{Gaussian processes}}$ · $\color{green}{\text{Stochastic optimisation}}$ · $\color{green}{\text{Scientific ML}}$
 
 ## Bayesian inverse problems
-$\color{red}{\text{Inverse problems ask:}}$ given observations $y = \mathcal{G}(u) + \varepsilon$, can we recover the unknown field or parameter $u$? The forward operator $\mathcal{G}$ is typically a differential equation or physical model, making direct inversion ill-posed in the [Hadamard sense](https://www.statisticshowto.com/well-posed-ill/).
+$\color{blue}{\text{Inverse problems ask:}}$ given observations $y = \mathcal{G}(u) + \varepsilon$, can we recover the unknown field or parameter $u$? The forward operator $\mathcal{G}$ is typically a differential equation or physical model, making direct inversion ill-posed in the [Hadamard sense](https://www.statisticshowto.com/well-posed-ill/).
  
 The Bayesian formulation regularises this naturally: by placing a prior $\pi_0(u)$ over the unknown and conditioning on data, the posterior
  
