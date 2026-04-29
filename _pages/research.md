@@ -30,8 +30,8 @@ encodes full uncertainty over plausible reconstructions. My work focuses on deve
 Complex computational models, from climate simulators to structural solvers, propagate uncertainty in a way that is rarely tractable analytically. UQ provides the mathematical toolkit to characterise how input uncertainty $p(x)$ maps to output variability $p(y)$ through a black-box or grey-box model $y = f(x)$.
  
 My research addresses both:
-- **Forward propagation** — using surrogate modelling (typically GPs but trying to learn more about polynomial chaos expansions and neural networks nowadays) to push distributions through expensive simulators.
-- **Sensitivity analysis** — via Sobol' indices and variance decompositions to identify which inputs drive output uncertainty, formally expressed as
+- $\color{green}{\text{Forward propagation}}$ — using surrogate modelling (typically GPs but trying to learn more about polynomial chaos expansions and neural networks nowadays) to push distributions through expensive simulators.
+- $\color{green}{\text{Sensitivity analysis}}$ — via Sobol' indices and variance decompositions to identify which inputs drive output uncertainty, formally expressed as
 $$S_i = \frac{\mathbb{V}[\mathbb{E}[Y \mid X_i]]}{\mathbb{V}[Y]}$$
  
 I am particularly interested in settings where $f$ is expensive to evaluate, coupling emulator construction with rigorous statistical estimation of uncertainty measures and their confidence intervals.
