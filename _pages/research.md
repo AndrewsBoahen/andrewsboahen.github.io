@@ -7,24 +7,24 @@ author_profile: true
 
 
 ## Research Overview
-My research sits at the intersection of $\color{red}{\text{statistical theory,}}$ $\color{red}{\text{probabilistic computation,}}$ $\color{red}{\text{and scientific inference}}; and involves developing principled frameworks for reasoning under uncertainty in complex, high-dimensional systems. 
+My research sits at the intersection of $\color{blue}{\text{statistical theory,}}$ $\color{blue}{\text{probabilistic computation,}}$ $\color{blue}{\text{and scientific inference}}$; and involves developing principled frameworks for reasoning under uncertainty in complex, high-dimensional systems. 
 
 Specifically, my research spans the topics of **Uncertainty quantification, Bayesian inverse problems, Monte carlo inference, Active learning** and **Optimization under uncertainty** with application areas from computer experiments and engineering sciences to digital twins and mission-critical physical systems.
 
-**Keywords:** Bayesian statistics · Monte Carlo methods · Inverse problems · Gaussian processes · Stochastic optimisation · Scientific ML
+ **Keywords:** $\color{green}{\text{Bayesian statistics}}$ · $\color{red}{\text{Monte Carlo methods}}$ · $\color{red}{\text{Inverse problems}}$ · $\color{red}{\text{Gaussian processes}}$ · $\color{red}{\text{Stochastic optimisation}}$ · $\color{red}{\text{Scientific ML}}$
 
 ## Bayesian inverse problems
-*Statistical inference · PDEs · Ill-posed problems*
- 
-Inverse problems ask: given observations $y = \mathcal{G}(u) + \varepsilon$, can we recover the unknown field or parameter $u$? The forward operator $\mathcal{G}$ is typically a differential equation or physical model, making direct inversion ill-posed in the Hadamard sense — solutions are non-unique or unstable to perturbation.
+$\color{red}{\text{Inverse problems ask:}}$ given observations $y = \mathcal{G}(u) + \varepsilon$, can we recover the unknown field or parameter $u$? The forward operator $\mathcal{G}$ is typically a differential equation or physical model, making direct inversion ill-posed in the [Hadamard sense](https://www.statisticshowto.com/well-posed-ill/).
  
 The Bayesian formulation regularises this naturally: by placing a prior $\pi_0(u)$ over the unknown and conditioning on data, the posterior
  
 $$\pi(u \mid y) \propto \mathcal{L}(y \mid u)\, \pi_0(u)$$
  
-encodes full uncertainty over plausible reconstructions. My work develops scalable computational methods for characterising this posterior in **function-space settings**, where $u$ lives in an infinite-dimensional Hilbert or Banach space, exploiting structure in the forward operator to make inference tractable.
+encodes full uncertainty over plausible reconstructions. My work focuses on developping scalable computational methods for characterising this posterior and frequentist approaches to this problem with uncertainty guarantees.
+
+<!--**function-space settings**, where $u$ lives in an infinite-dimensional Hilbert or Banach space, exploiting structure in the forward operator to make inference tractable.-->
  
-**Topics:** function-space MCMC · Tikhonov–Bayes connections · operator learning · pCN algorithms · posterior consistency
+**Topics:** Computer Model Calibration  · Tikhonov–Bayes connections · [pCN algorithms](https://en.wikipedia.org/wiki/Preconditioned_Crank–Nicolson_algorithm) · [posterior consistency](https://andrewcharlesjones.github.io/journal/posterior-consistency.html)
 
 ## Uncertainty quantification
 *Probabilistic modelling · Sensitivity analysis · Risk*
