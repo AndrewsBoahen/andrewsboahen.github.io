@@ -59,19 +59,11 @@ $$\mathbb{E}\!\left[D_{\mathrm{KL}}\!\left(\pi(\theta \mid y)\;\|\;\pi(\theta)\r
  
 I aim to develop AL strategies for scientific and engineering applications where evaluations are costly, including batch-sequential designs and possibly online settings. A recurring theme is the interplay between the surrogate model's epistemic uncertainty and the practical cost associated with new input location , particularly in settings with structured input spaces or physics-based constraints.
  
-**Topics:** $\color{blue}{\text{optimal experimental design}}$ · $\color{blue}{\text{information gain}}$ · $\color{blue}{\text{acquisition functions}}$ · $\color{blue}{\text{surrogates}}$ · $\color{blue}{\text{ALM/ALC/ALD}}$
+**Topics:** <small> $\color{green}{\text{optimal experimental design}}$ · $\color{green}{\text{information gain}}$ · $\color{green}{\text{acquisition functions}}$ · $\color{green}{\text{surrogates}}$ · $\color{green}{\text{ALM/ALC/ALD}}$ <small>
 
 ## Monte carlo inference
 Update coming soon!
-<!--Monte Carlo methods form the computational backbone of Bayesian inference: when the posterior $\pi(\theta \mid y)$ is analytically intractable, we approximate expectations
- 
-$$\mathbb{E}_\pi[h(\theta)] \approx \frac{1}{N}\sum_{i=1}^{N} h(\theta^{(i)}), \quad \theta^{(i)} \sim \pi$$
- 
-using samples. My research spans classical MCMC (Metropolis–Hastings, HMC, Langevin dynamics), sequential Monte Carlo and particle filters, and more recent gradient-informed and geometry-aware samplers.
- 
-A central focus is on **convergence guarantees**, bounding the total variation or Wasserstein distance between the chain's marginal and its target, and on scalability to high-dimensional posteriors arising in inverse problems and latent variable models. I also work on variance reduction techniques including control variates and importance sampling to improve estimator efficiency beyond what sample size alone can achieve.
- 
-**Topics:** MCMC · Hamiltonian Monte Carlo · SMC / particle filters · Langevin diffusion · variance reduction · convergence bounds-->
+
  
 ---
  
