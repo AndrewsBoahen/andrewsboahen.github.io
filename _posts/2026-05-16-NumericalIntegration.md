@@ -2,7 +2,7 @@
 layout: single
 title: 'Quadrature Methods & Some Applications'
 collection: posts
-permalink: /blog/2026-05-16-blog-post-1
+permalink: /posts/2026-05-16-NumericalIntegration
 date: 2026-05-16
 tags:
   - Numerical Integration
