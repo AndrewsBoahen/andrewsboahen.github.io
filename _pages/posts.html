@@ -12,6 +12,12 @@ author_profile: true
 
 I will be discussing some interesting topics related to (probably not directly) to my research on this page.
 
+{% include base_path %}
+
+{% for post in site.posts %}
+  {% include archive-single.html %}
+{% endfor %}
+
 
 
 
