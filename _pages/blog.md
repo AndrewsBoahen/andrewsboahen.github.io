@@ -5,4 +5,6 @@ permalink: /blog/
 author_profile: true
 ---
 
+{: .notice--success .large-quote} "Quality means doing it right when no one is looking."~ Henry Ford
+
 I will be discussing some interesting topics related to (probably not directly) to my research on this page.
