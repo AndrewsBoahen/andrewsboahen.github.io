@@ -1,5 +1,4 @@
 ---
-layout: single
 title: 'Quadrature Methods & Some Applications'
 collection: posts
 permalink: /posts/2026-05-16-NumericalIntegration
