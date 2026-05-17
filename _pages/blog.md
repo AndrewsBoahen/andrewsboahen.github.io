@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: posts
 title: "Blog Posts"
 permalink: /blog/
 author_profile: true
@@ -10,8 +10,3 @@ author_profile: true
 
 I will be discussing some interesting topics related to (probably not directly) to my research on this page.
 
-{% include base_path %}
-
-{% for post in site.posts %}
-  {% include archive-single.html %}
-{% endfor %}
