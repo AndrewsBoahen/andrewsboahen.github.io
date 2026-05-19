@@ -7,14 +7,14 @@ author_profile: true
 
 
 ## Research Overview
-My research sits at the intersection of $\color{#00a0d1}{\text{statistical theory,}}$ $\color{blue}{\text{probabilistic computation,}}$ and $\color{blue}{\text{scientific inference}}$. I enjoy developing principled frameworks for reasoning under uncertainty in complex, high-dimensional systems. 
+My research sits at the intersection of $\color{#00a0d1}{\text{statistical theory,}}$ $\color{#00a0d1}{\text{probabilistic computation,}}$ and $\color{#00a0d1}{\text{scientific inference}}$. I enjoy developing principled frameworks for reasoning under uncertainty in complex, high-dimensional systems. 
 
 Specifically, my research spans the topics of **Uncertainty quantification, Bayesian inverse problems, Monte carlo inference, Active learning** and **Optimization under uncertainty** with application areas from computer experiments and engineering sciences to digital twins and mission-critical physical systems.
 
- **Keywords:** <small> $\color{teal}{\text{Bayesian statistics}}$ · $\color{cyan}{\text{Monte Carlo methods}}$ · $\color{}{\text{Inverse problems}}$ · $\color{green}{\text{Gaussian & Deep Gaussian processes}}$ · $\color{green}{\text{Stochastic optimisation}}$ · $\color{green}{\text{Scientific ML}}$ <small>
+ **Keywords:** <small> $\color{#00a0d1}{\text{Bayesian statistics}}$ · $\color{#00a0d1}{\text{Monte Carlo methods}}$ · $\color{#00a0d1}{\text{Inverse problems}}$ · $\color{#00a0d1}{\text{Gaussian & Deep Gaussian processes}}$ · $\color{#00a0d1}{\text{Stochastic optimisation}}$ · $\color{#00a0d1}{\text{Scientific ML}}$ <small>
 
 ## Bayesian inverse problems
-$\color{blue}{\text{Inverse problems ask:}}$ given observations $y = \mathcal{G}(u) + \varepsilon$, can we recover the unknown field or parameter $u$? The forward operator $\mathcal{G}$ is typically a differential equation or physical model, making direct inversion ill-posed in the [Hadamard sense](https://www.statisticshowto.com/well-posed-ill/).
+$\color{#00a0d1}{\text{Inverse problems ask:}}$ given observations $y = \mathcal{G}(u) + \varepsilon$, can we recover the unknown field or parameter $u$? The forward operator $\mathcal{G}$ is typically a differential equation or physical model, making direct inversion ill-posed in the [Hadamard sense](https://www.statisticshowto.com/well-posed-ill/).
  
 The Bayesian formulation regularises this naturally: by placing a prior $\pi_0(u)$ over the unknown and conditioning on data, the posterior
  
