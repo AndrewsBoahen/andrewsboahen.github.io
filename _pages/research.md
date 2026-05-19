@@ -53,13 +53,13 @@ requiring joint surrogate models over both inputs variables and "hyperparameters
 <!--multi-fidelity methods-->
  
 ## Active learning (AL)
-$\color{blue}{\text{Active learning addresses the data-efficiency problem:}}$ given a budget of $N$ labelled observations, which input location $x_1, \ldots, x_N \in \mathcal{X}$ should be selected to maximise learning? The Bayesian framing connects directly to optimal experimental design — choosing experiments to maximise expected information gain
+$\color{#00a0d1}{\text{Active learning addresses the data-efficiency problem:}}$ given a budget of $N$ labelled observations, which input location $x_1, \ldots, x_N \in \mathcal{X}$ should be selected to maximise learning? The Bayesian framing connects directly to optimal experimental design — choosing experiments to maximise expected information gain
  
 $$\mathbb{E}\!\left[D_{\mathrm{KL}}\!\left(\pi(\theta \mid y)\;\|\;\pi(\theta)\right)\right].$$
  
 I aim to develop AL strategies for scientific and engineering applications where evaluations are costly, including batch-sequential designs and possibly online settings. A recurring theme is the interplay between the surrogate model's epistemic uncertainty and the practical cost associated with new input location , particularly in settings with structured input spaces or physics-based constraints.
  
-**Topics:** <small> $\color{green}{\text{optimal experimental design}}$ · $\color{green}{\text{information gain}}$ · $\color{green}{\text{acquisition functions}}$ · $\color{green}{\text{surrogates}}$ · $\color{green}{\text{ALM/ALC/ALD}}$ <small>
+**Topics:** optimal experimental design · information gain · acquisition functions · surrogates · ALM/ALC/ALD
 
 ## Monte carlo inference
 Update coming soon!
