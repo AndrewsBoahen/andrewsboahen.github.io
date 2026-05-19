@@ -67,4 +67,4 @@ Update coming soon!
  
 ---
  
-> $\color{green}{\text{These areas are deeply interconnected!}}$ Monte Carlo inference underpins Bayesian inverse problems; active learning drives data collection for UQ; Bayesian optimisation uses the same GP machinery as uncertainty propagation.
+> $\color{#00a0d1}{\text{These areas are deeply interconnected!}}$ Monte Carlo inference underpins Bayesian inverse problems; active learning drives data collection for UQ; Bayesian optimisation uses the same GP machinery as uncertainty propagation.
