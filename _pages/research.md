@@ -27,7 +27,7 @@ encodes full uncertainty over plausible reconstructions. My work focuses on deve
 **Topics:** Computer Model Calibration  · Tikhonov–Bayes connections · [pCN algorithms](https://en.wikipedia.org/wiki/Preconditioned_Crank–Nicolson_algorithm) · [posterior consistency](https://andrewcharlesjones.github.io/journal/posterior-consistency.html)
 
 ## Uncertainty quantification 
-Complex computational models, from climate simulators to structural solvers, propagate uncertainty in a way that is rarely tractable analytically. $\color{#00a0d1}{\text{UQ provides the mathematical}}$ $\color{#00a0d1}{\text{toolkit}}$ to characterise how $\color{#00a0d1}{\text{input uncertainty,}} p(x)$  maps to $\color{#00a0d1}{\text{output variability, p(y)}}$ through a black-box or grey-box model $y = f(x)$.
+Complex computational models, from climate simulators to structural solvers, propagate uncertainty in a way that is rarely tractable analytically. $\color{#00a0d1}{\text{UQ provides the mathematical}}$ $\color{#00a0d1}{\text{toolkit}}$ to characterise how $\color{#00a0d1}{\text{input uncertainty p(x)}} $  maps to $\color{#00a0d1}{\text{output variability p(y)}},$ through a black-box or grey-box model $y = f(x)$.
  
 My research addresses both:
 - $\color{#00a0d1}{\text{Forward propagation:}}$  using surrogate modelling (typically GPs but trying to learn more about polynomial chaos expansions and neural networks nowadays) to push distributions through expensive simulators.
