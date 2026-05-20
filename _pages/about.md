@@ -18,7 +18,7 @@ Prior to my current position, I obtained a MSc. in Mathematical Sciences with di
 
 <div class="news" markdown="1">
 
-- **[May 2026]** I am thrilled to share that I will be joining the [Gritton Lab](https://vetmed.illinois.edu/gritton-lab/) at the [UIUC](https://illinois.edu) this summer, to work on an exciting project! 
+- **[May 2026]** I am thrilled to share that I will be joining the [Gritton Lab](https://vetmed.illinois.edu/gritton-lab/) at [UIUC](https://illinois.edu) this summer, to work on an exciting project! 
 
 - **[Apr 2026]** Visit my [interactive platform for conformal prediction tasks](https://andrewsboahenmyconformalprediction.streamlit.app/). This was an assignment for an intro to Python class I enrolled in this semester.
   
