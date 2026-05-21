@@ -4,6 +4,7 @@ title: "A Hierarchical Tree of Contributors to Computer Model Calibration and Ac
 collection: posts
 permalink: /posts/2026-05-20-computer-model-calibration-contributors.md
 date: 2026-05-20
+excerpt: "A hierarchical tree organizing the major contributors to computer model calibration, spanning theory, methodology and apllcations."
 tags: [computer-experiments, calibration, uncertainty-quantification, active-learning, gaussian-processes]
 ---
 
