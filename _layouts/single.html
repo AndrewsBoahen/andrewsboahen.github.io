@@ -91,9 +91,21 @@ layout: default
     {% if site.comments.provider and page.comments %}
       {% include comments.html %}
     {% endif %}
-    {% if page.mermaid %}
-      {% include mermaid.html %}
-    {% endif %}
+   {% if page.mermaid %}
+  {% raw %}<script src="https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.min.js"></script>
+  <script>
+  mermaid.initialize({ startOnLoad: false });
+  document.querySelectorAll("div.language-mermaid").forEach(function(wrapper){
+    var codeEl = wrapper.querySelector("code");
+    if (!codeEl) { return; }
+    var pre = document.createElement("pre");
+    pre.className = "mermaid";
+    pre.textContent = codeEl.textContent;
+    wrapper.replaceWith(pre);
+  });
+  mermaid.run();
+  </script>{% endraw %}
+  {% endif %}
   </article>
 
   {% comment %}<!-- only show related on a post page when not disabled -->{% endcomment %}
