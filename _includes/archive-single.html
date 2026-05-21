@@ -37,9 +37,13 @@
 
   <div class="publication-content">
 
-   <div class="pub-title">
+<div class="pub-title">
   {% if post.paperurl %}
     <a href="{{ post.paperurl }}" target="_blank" rel="noopener">
+      {{ post.title }}
+    </a>
+  {% elsif post.url %}
+    <a href="{{ base_path }}{{ post.url }}" rel="permalink">
       {{ post.title }}
     </a>
   {% else %}
