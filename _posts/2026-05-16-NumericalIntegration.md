@@ -2,7 +2,7 @@
 layout: single
 title: 'Quadrature Methods & Some Applications'
 collection: posts
-permalink: /posts/2026-05-16-Quadrature Methods & Some Applications
+permalink: /posts/2026-05-16-QuadratureMethods/
 date: 2026-05-16
 tags: [Numerical Integration, Definite Integrals, Approximation techniques]
 ---
