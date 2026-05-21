@@ -7,10 +7,11 @@ date: 2026-05-16
 tags: [Numerical Integration, Definite Integrals, Approximation techniques]
 ---
 
-This post is about some numerical integration techniques and when to use them. I will concentarte on numerical quadrature (possibly cubature) and monte carlo integration. Some examples will be provided with possible guidance on which of them to use based on the function to integrate.
+This post will be about some numerical integration techniques and when to use them. I will concentrate on numerical quadrature (possibly cubature) and monte carlo integration. Some examples will be provided with possible guidance on which of them to use based on the function to integrate.
 
 Numerical Quadratures
 ======
+
 Monte Carlo Integration
 ======
 
