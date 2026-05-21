@@ -6,6 +6,7 @@ permalink: /posts/2026-05-20-computermodelcalibrationcontributors/
 date: 2026-05-20
 excerpt: "A hierarchical tree organizing the major contributors to computer model calibration, spanning theory, methodology and apllcations."
 tags: [computer-experiments, calibration, uncertainty-quantification, active-learning, gaussian-processes]
+mermaid: true
 ---
 
 Computer model calibration involves using both physical and simulation observations to learn unknown parameters of an expensive simulator while accounting for model discrepancy. This field has grown into a substantial sub-field of statistics and uncertainty quantification over the past two and a half decades. To get a better grasp of the field, I organized the major contributors (to the best of my knowledge) into a hierarchical tree, showing how the field branched out from a single foundational paper and where active learning fits into the picture.
