@@ -2,7 +2,7 @@
 layout: single
 title: "A Hierarchical Tree of Contributors to Computer Model Calibration and Active Learning for Calibration"
 collection: posts
-permalink: /posts/2026-05-16-NumericalIntegration
+permalink: /posts/2026-05-20-computer-model-calibration-contributors.md
 date: 2026-05-20
 tags: [computer-experiments, calibration, uncertainty-quantification, active-learning, gaussian-processes]
 ---
