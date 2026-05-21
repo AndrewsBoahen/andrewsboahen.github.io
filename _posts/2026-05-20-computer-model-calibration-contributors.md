@@ -8,9 +8,7 @@ excerpt: "A hierarchical tree organizing the major contributors to computer mode
 tags: [computer-experiments, calibration, uncertainty-quantification, active-learning, gaussian-processes]
 ---
 
-# A Hierarchical Tree of Contributors to Computer Model Calibration and Active Learning for Calibration
-
-Computer model calibration — the problem of using physical observations to learn unknown parameters of an expensive simulator while accounting for model discrepancy — has grown into a substantial sub-field of statistics and uncertainty quantification over the past two and a half decades. This post organizes the major contributors into a hierarchical tree, showing how the field branched out from a single foundational paper and where active learning fits into the picture.
+Computer model calibration involves using both physical and simulation observations to learn unknown parameters of an expensive simulator while accounting for model discrepancy. This field has grown into a substantial sub-field of statistics and uncertainty quantification over the past two and a half decades. To get a better grasp of the field, I organized the major contributors (to the best of my knowledge) into a hierarchical tree, showing how the field branched out from a single foundational paper and where active learning fits into the picture.
 
 ## The lineage at a glance
 
