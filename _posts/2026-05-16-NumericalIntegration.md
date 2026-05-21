@@ -14,5 +14,5 @@ This post will be about some numerical integration techniques and when to use th
 
 
 # Monte Carlo Integration
-======
+
 
