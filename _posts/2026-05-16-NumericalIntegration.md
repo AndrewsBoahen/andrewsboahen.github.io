@@ -10,11 +10,11 @@ mermaid: true
 
 This post will be about some numerical integration techniques and when to use them. I will concentrate on numerical quadrature (possibly cubature) and monte carlo integration. Some examples will be provided with possible guidance on which of them to use based on the function to integrate.
 
-Numerical Quadratures
+#1. Numerical Quadratures
 ======
 
-Monte Carlo Integration
+#2. Monte Carlo Integration
 ======
 
-Examples
+#3. Examples
 ------
