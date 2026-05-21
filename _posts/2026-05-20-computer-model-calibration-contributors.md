@@ -143,7 +143,7 @@ This branch attacks the cost of calibration when emulators must be large, nonsta
 
 ### 5. Active learning and sequential design
 
-This is the most recently active branch and the one most directly relevant to anyone deciding which simulator run to perform next. The general active-learning machinery — Seo et al. (2000) ALC, Jones, Schonlau, Welch (1998) EGO/EI, Binois, Gramacy, Ludkovski (2018) IMSPE — is the toolkit that this branch adapts to the calibration setting.
+This is the most recently active branch and the one most directly relevant to anyone deciding which simulator run to perform next. The general active-learning machinery (Seo et al. (2000) ALC, Jones, Schonlau, Welch (1998) EGO/EI, Binois, Gramacy, Ludkovski (2018) IMSPE) is the toolkit that this branch adapts to the calibration setting.
 
 - **Damblin, Barbillon, Keller, Pasanisi, Parent (2018)** — adaptive numerical designs for code calibration using an expected-improvement-style criterion (SIAM/ASA JUQ).
 - **Kandasamy, Schneider, Póczos (2015)** — Bayesian active learning of the posterior via GP emulation of the log-likelihood.
@@ -162,13 +162,13 @@ A handful of authors are best understood as cross-cutting rather than belonging 
 
 Application-driven authors who have shaped methodology through their use cases include Han, Santner, Rawlinson (biomechanics); Murphy et al. (climate prediction); Farah, Birrell, Conti, De Angelis, Presanis, Lopes, Sung & Hung (epidemiology); Wang, Chen, Tsui (manufacturing); Allaire, Zhou (aerospace); and Thelen et al. and Kenett & Bortman (digital twins).
 
-## Where active learning fits into the picture
+<!-- ## Where active learning fits into the picture
 
-Active learning enters the calibration story specifically as a way to choose simulator inputs to evaluate next, when each simulator run is expensive and only a handful can be afforded. The key distinction from general Bayesian optimization is the *target*: in calibration we are not optimizing the simulator output — we are trying to (a) accurately recover the posterior over calibration parameters, (b) make accurate predictions of the physical system under new conditions, or (c) both. This changes the acquisition function. EI-style criteria (Damblin et al.) push toward the posterior mode but can starve the rest of the posterior surface. IMSPE-style criteria (Koermer et al., Sürer et al., Lartaud et al.) target predictive accuracy across the input space and tend to be the more principled choice when the downstream goal is prediction or posterior inference rather than point estimation.
+Active learning enters the calibration story specifically as a way to choose simulator inputs to evaluate next, when each simulator run is expensive and only a handful can be afforded. The key distinction from general Bayesian optimization is the *target*: in calibration we are not optimizing the simulator output — we are trying to (a) accurately recover the posterior over calibration parameters, (b) make accurate predictions of the physical system under new conditions, or (c) both. This changes the acquisition function. EI-style criteria (Damblin et al.) push toward the posterior mode but can starve the rest of the posterior surface. IMSPE-style criteria (Koermer et al., Sürer et al., Lartaud et al.) target predictive accuracy across the input space and tend to be the more principled choice when the downstream goal is prediction or posterior inference rather than point estimation. -->
 
 ## A single recent survey to anchor further reading
 
-If you want one entry point that ties most of the above together, Sung et al. (2024), *A Review on Computer Model Calibration*, WIREs Computational Statistics, is the most current synthesis and was a useful spine for this tree.
+If you want one paper that ties most of the above together, Sung et al. (2024), [*A Review on Computer Model Calibration*](https://wires.onlinelibrary.wiley.com/doi/pdf/10.1002%2Fwics.1645), WIREs Computational Statistics, is the most current synthesis and was a useful spine for this tree.
 
 ## References (selected)
 
