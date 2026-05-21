@@ -168,7 +168,7 @@ Active learning enters the calibration story specifically as a way to choose sim
 
 ## A single recent survey to anchor further reading
 
-If you want one paper that ties most of the above together, Sung et al. (2024), [*A Review on Computer Model Calibration*](https://wires.onlinelibrary.wiley.com/doi/pdf/10.1002%2Fwics.1645), WIREs Computational Statistics, is the most current synthesis and was a useful spine for this tree.
+If you want one paper that ties most of the above together, Sung et al. (2024), *[A Review on Computer Model Calibration](https://wires.onlinelibrary.wiley.com/doi/pdf/10.1002%2Fwics.1645)*, WIREs Computational Statistics, is the most current synthesis and was a useful spine for this tree.
 
 ## References (selected)
 
