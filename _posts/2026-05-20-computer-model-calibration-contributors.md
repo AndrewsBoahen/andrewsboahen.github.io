@@ -93,7 +93,7 @@ That paper sits on top of the broader computer-experiments tradition that preced
 
 - **[Sacks, Welch, Mitchell, Wynn (1989)](https://projecteuclid.org/journalArticle/Download?urlId=10.1214%2Fss%2F1177012413)** — Gaussian Process emulation and the design/analysis of computer experiments.
 - **[Currin, Mitchell, Morris, Ylvisaker (1991)](https://www2.stat.duke.edu/courses/Spring14/sta961.01/ref/CurrMitcMorrYlvi1991.pdf)** — Bayesian prediction for deterministic computer codes.
-- **[Craig, Goldstein, Rougier, Seheult (2001)](https://www.jstor.org/stable/2670309?if_data=e30%3D&seq=1)** — the parallel Bayes-linear / history-matching lineage.
+- **[Craig, Goldstein, Rougier, Seheult (2001)](https://www.jstor.org/stable/pdf/2670309.pdf?refreqid=fastly-default%3Aec17bd610d3b0b2fb3a1fb2e1f324c65&ab_segments=&initiator=&acceptTC=1)** — the parallel Bayes-linear / history-matching lineage.
 
 ## The Five Major Branches
 
