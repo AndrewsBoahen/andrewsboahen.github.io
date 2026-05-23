@@ -97,13 +97,13 @@ That paper sits on top of the broader computer-experiments tradition that preced
 
 ## The Five Major Branches
 
-After 2001, the field grew along roughly five threads. The same author can appear in multiple branches; the placement below reflects what I think is the headline contribution.
+After 2001, the field grew along roughly five threads. Some authors can appear in multiple branches (this is actually quite frequent). The placement below reflects what I think is the headline contribution (mostly papers I have read).
 
 ### 1. High-dimensional and multivariate output
 
 This branch tackles how to calibrate when the simulator returns functional, spatial, image-like, or otherwise high-dimensional output. The dominant figures are Dave Higdon and collaborators at Los Alamos, plus the Bayarri–Berger SAMSI group.
 
-- **Higdon, Kennedy, Cavendish, Cafeo, Ryne (2004)** — combining field data and computer simulations (SIAM J. Sci. Comput.); the canonical first follow-up to KOH with a worked engineering example.
+- **[Higdon, Kennedy, Cavendish, Cafeo, Ryne (2004)](https://www2.stat.duke.edu/courses/Spring14/sta961.01/ref/HigdKennEtal2004.pdf)** — combining field data and computer simulations (SIAM J. Sci. Comput.); a seminal follow-up to KOH with a worked engineering example.
 - **Higdon, Gattiker, Williams, Rightley (2008)** — *Computer Model Calibration Using High-Dimensional Output* (JASA); SVD basis representations.
 - **Bayarri, Berger, Cafeo, Garcia-Donato, Liu, Palomo, Parthasarathy, Paulo, Sacks, Walsh (2007b)** — *Computer Model Validation with Functional Output* (Annals of Statistics); wavelet basis approach.
 - **Higdon, Gattiker, Lawrence, Jackson, Tobis, Pratola, Habib, Heitmann, Price (2013)** — ensemble-Kalman-based calibration.
