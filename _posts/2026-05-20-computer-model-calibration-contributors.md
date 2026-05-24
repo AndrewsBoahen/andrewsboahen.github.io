@@ -103,7 +103,7 @@ After 2001, the field grew along roughly five threads. Some authors can appear i
 
 This branch tackles how to calibrate when the simulator returns functional, spatial, image-like, or otherwise high-dimensional output. The dominant figures are Dave Higdon and collaborators at Los Alamos, plus the Bayarri–Berger SAMSI group.
 
-- **[Higdon, Kennedy, Cavendish, Cafeo, Ryne (2004)](https://www2.stat.duke.edu/courses/Spring14/sta961.01/ref/HigdKennEtal2004.pdf)** — combining field data and computer simulations (SIAM J. Sci. Comput.); a seminal follow-up to KOH with a worked engineering example.
+- **[Higdon, Kennedy, Cavendish, Cafeo, Ryne (2004)](https://www2.stat.duke.edu/courses/Spring14/sta961.01/ref/HigdKennEtal2004.pdf)** — Combining field data and computer simulations (SIAM J. Sci. Comput.); a seminal follow-up to KOH with a worked engineering example.
 - **[Bayarri, Berger, Cafeo, Garcia-Donato, Liu, Palomo, Parthasarathy, Paulo, Sacks, Walsh (2007b)](https://arxiv.org/pdf/0711.3271)** — *Computer Model Validation with Functional Output* (Annals of Statistics); wavelet basis approach.
 - **[Higdon, Gattiker, Williams, Rightley (2008)](https://www.tandfonline.com/doi/epdf/10.1198/016214507000000888?needAccess=true)** — *Computer Model Calibration Using High-Dimensional Output* (JASA); SVD basis representations.
 - **[Higdon, Gattiker, Lawrence, Jackson, Tobis, Pratola, Habib, Heitmann, Price (2013)](https://www.tandfonline.com/doi/epdf/10.1080/00401706.2013.842936?needAccess=true)** — Ensemble Kalman Filter-based calibration.
@@ -124,10 +124,10 @@ A long-standing concern with KOH is that the calibration parameters and the disc
 
 This branch grew out of the SAMSI computer-models program. It is especially influential among practitioners who want to decouple emulator fitting from calibration inference.
 
-- **Bayarri, Berger, Paulo, Sacks, Cafeo, Cavendish, Lin, Tu (2007a)** — *A Framework for Validation of Computer Models* (Technometrics).
-- **Liu, Bayarri, Berger (2009)** — modularization of the KOH framework, where the emulator is fit first and held fixed during calibration.
-- **Vernon, Goldstein, Bower (2010)** — history matching applied to galaxy formation; a leading non-KOH alternative.
-- **Williams, Higdon, Gattiker, Moore, McKay, Keller-McNulty (2006)** — combining simulations with field data for engineering systems.
+- **[Bayarri, Berger, Paulo, Sacks, Cafeo, Cavendish, Lin, Tu (2007a)](https://www.tandfonline.com/doi/epdf/10.1198/004017007000000092?needAccess=true)** — *A Framework for Validation of Computer Models* (Technometrics).
+- **[Liu, Bayarri, Berger (2009)](https://projecteuclid.org/journals/bayesian-analysis/volume-4/issue-1/Modularization-in-Bayesian-analysis-with-emphasis-on-analysis-of-computer/10.1214/09-BA404.pdf)** — modularization of the KOH framework, where the emulator is fit first and held fixed during calibration.
+- **[Vernon, Goldstein, Bower (2010)](https://arxiv.org/pdf/1405.4976)** — history matching applied to galaxy formation; a leading non-KOH alternative.
+- **[Williams, Higdon, Gattiker, Moore, McKay, Keller-McNulty (2006)](https://projecteuclid.org/journalArticle/Download?urlId=10.1214%2F06-BA125)** — combining simulations with field data for engineering systems.
 - **Joseph and Melkote (2009); Goh, Bingham, Holloway, Grosskopf, Kuranz, Rutter (2013)** — engineering-oriented adjustments and calibration with multiple simulators.
 
 ### 4. Scalability, trees, and nonstationarity
