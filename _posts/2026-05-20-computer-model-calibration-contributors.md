@@ -128,7 +128,7 @@ This branch grew out of the SAMSI computer-models program. It is especially infl
 - **[Liu, Bayarri, Berger (2009)](https://projecteuclid.org/journals/bayesian-analysis/volume-4/issue-1/Modularization-in-Bayesian-analysis-with-emphasis-on-analysis-of-computer/10.1214/09-BA404.pdf)** — modularization of the KOH framework, where the emulator is fit first and held fixed during calibration.
 - **[Vernon, Goldstein, Bower (2010)](https://arxiv.org/pdf/1405.4976)** — history matching applied to galaxy formation; a leading non-KOH alternative.
 - **[Williams, Higdon, Gattiker, Moore, McKay, Keller-McNulty (2006)](https://projecteuclid.org/journalArticle/Download?urlId=10.1214%2F06-BA125)** — combining simulations with field data for engineering systems.
-- **Joseph and Melkote (2009); Goh, Bingham, Holloway, Grosskopf, Kuranz, Rutter (2013)** — engineering-oriented adjustments and calibration with multiple simulators.
+- **[Joseph and Melkote (2009)](https://www.tandfonline.com/doi/epdf/10.1080/00224065.2009.11917791?needAccess=true); [Goh, Bingham, Holloway, Grosskopf, Kuranz, Rutter (2013)](https://www.tandfonline.com/doi/epdf/10.1080/00401706.2013.838910?needAccess=true)** — engineering-oriented adjustments and calibration with multiple simulators.
 
 ### 4. Scalability, trees, and nonstationarity
 
