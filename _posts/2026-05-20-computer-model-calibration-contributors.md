@@ -104,9 +104,9 @@ After 2001, the field grew along roughly five threads. Some authors can appear i
 This branch tackles how to calibrate when the simulator returns functional, spatial, image-like, or otherwise high-dimensional output. The dominant figures are Dave Higdon and collaborators at Los Alamos, plus the Bayarri–Berger SAMSI group.
 
 - **[Higdon, Kennedy, Cavendish, Cafeo, Ryne (2004)](https://www2.stat.duke.edu/courses/Spring14/sta961.01/ref/HigdKennEtal2004.pdf)** — combining field data and computer simulations (SIAM J. Sci. Comput.); a seminal follow-up to KOH with a worked engineering example.
-- **Higdon, Gattiker, Williams, Rightley (2008)** — *Computer Model Calibration Using High-Dimensional Output* (JASA); SVD basis representations.
-- **Bayarri, Berger, Cafeo, Garcia-Donato, Liu, Palomo, Parthasarathy, Paulo, Sacks, Walsh (2007b)** — *Computer Model Validation with Functional Output* (Annals of Statistics); wavelet basis approach.
-- **Higdon, Gattiker, Lawrence, Jackson, Tobis, Pratola, Habib, Heitmann, Price (2013)** — ensemble-Kalman-based calibration.
+- **[Higdon, Gattiker, Williams, Rightley (2008)](https://www.tandfonline.com/doi/epdf/10.1198/016214507000000888?needAccess=true)** — *Computer Model Calibration Using High-Dimensional Output* (JASA); SVD basis representations.
+- **[Bayarri, Berger, Cafeo, Garcia-Donato, Liu, Palomo, Parthasarathy, Paulo, Sacks, Walsh (2007b)](https://arxiv.org/pdf/0711.3271)** — *Computer Model Validation with Functional Output* (Annals of Statistics); wavelet basis approach.
+- **[Higdon, Gattiker, Lawrence, Jackson, Tobis, Pratola, Habib, Heitmann, Price (2013)](https://www.tandfonline.com/doi/epdf/10.1080/00401706.2013.842936?needAccess=true)** — Ensemble Kalman Filter-based calibration.
 
 ### 2. Identifiability and theoretical analysis
 
