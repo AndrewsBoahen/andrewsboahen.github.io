@@ -112,13 +112,13 @@ This branch tackles how to calibrate when the simulator returns functional, spat
 
 A long-standing concern with KOH is that the calibration parameters and the discrepancy function are jointly non-identifiable. This branch establishes the asymptotic theory and proposes corrective estimators.
 
-- **Tuo and Wu (2015, 2016)** — proved that a simplified KOH estimator is L₂-inconsistent and defined the calibration parameter as the L₂ projection.
-- **Brynjarsdóttir and O'Hagan (2014)** — articulated the role of informative priors on the discrepancy in resolving identifiability in practice.
-- **Plumlee (2017)** — orthogonal Gaussian-process priors that impose an orthogonality constraint on the bias function.
-- **Gu and Wang (2018)** — scaled Gaussian processes that constrain the "size" of the bias function.
-- **Wong, Storlie, Lee (2017)** — frequentist theory for KOH-type estimators.
-- **Tuo (2019)** — projected kernel calibration with semiparametric efficiency.
-- **Xie and Xu (2021)** — treats the calibration parameter as a functional of the bias function via a projected Bayesian approach.
+- **Tuo and Wu ([2015](https://projecteuclid.org/journalArticle/Download?urlId=10.1214%2F15-AOS1314), [2016](https://epubs.siam.org/doi/10.1137/151005841))** — proved that a simplified KOH estimator is L₂-inconsistent and defined the calibration parameter as the L₂ projection.
+- **[Brynjarsdóttir and O'Hagan (2014)](https://iopscience.iop.org/article/10.1088/0266-5611/30/11/114007/pdf)** — articulated the role of informative priors on the discrepancy in resolving identifiability in practice.
+- **[Plumlee (2017)](https://www.asc.ohio-state.edu/statistics/comp_exp/jour.club/Bayesian_calibration_of_inexact_computer_models_Plumlee_2017.pdf)** — Orthogonal Gaussian Process priors that impose an orthogonality constraint on the bias function.
+- **[Gu and Wang (2018)](https://epubs.siam.org/doi/10.1137/17M1159890?__cf_chl_tk=YH53.W71s4cV0O8y7DA6nC3LdWQEMPLO545dBANjSpw-1779598257-1.0.1.1-fLeXj3qI0GgwlrV5.FUFJIQ0sMYwMoiRJHqWi5InZi0)** — Scaled Gaussian Processes that constrain the "size" of the bias function.
+- **[Wong, Storlie, Lee (2017)](https://rss.onlinelibrary.wiley.com/doi/epdf/10.1111/rssb.12182?saml_referrer)** — Frequentist theory for KOH-type estimators.
+- **[Tuo (2019)](https://epubs.siam.org/doi/10.1137/17M1128769)** — projected kernel calibration with semiparametric efficiency.
+- **[Xie and Xu (2021)](https://www.tandfonline.com/doi/epdf/10.1080/01621459.2020.1753519?needAccess=true)** — treats the calibration parameter as a functional of the bias function via a projected Bayesian approach.
 
 ### 3. Validation and modular calibration
 
