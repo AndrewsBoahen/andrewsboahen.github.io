@@ -33,8 +33,8 @@ flowchart TD
     KOH --> B5["<b>5. Active learning &amp;<br/>sequential design</b>"]
 
     B1 --> B1a["Higdon, Kennedy, Cavendish,<br/>Cafeo, Ryne (2004)"]
-    B1a --> B1b["Higdon, Gattiker, Williams,<br/>Rightley (2008) — SVD basis"]
-    B1b --> B1c["Bayarri, Berger, Cafeo et al.<br/>(2007b) — wavelet basis"]
+    B1a --> B1b["Bayarri, Berger, Cafeo et al.<br/>(2007b) — wavelet basis"]
+    B1b --> B1c["Higdon, Gattiker, Williams,<br/>Rightley (2008) — SVD basis"]
     B1c --> B1d["Higdon, Gattiker, Lawrence et al.<br/>(2013) — ensemble Kalman"]
 
     B2 --> B2a["Tuo &amp; Wu (2015, 2016)<br/><i>L₂ calibration, consistency</i>"]
