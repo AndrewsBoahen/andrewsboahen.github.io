@@ -18,7 +18,7 @@ Prior to my current position, I obtained a MSc. in Mathematical Sciences with di
 
 <div class="news" markdown="1">
   
-- **[May 2026]** Happy to announce that I have been awarded the M.Sc. in Statistics from [MSU](https://msu.edu), en route to my Ph.D.
+- **[May 2026]** Happy to announce that I have been awarded the M.Sc. in Statistics from [MSU](https://msu.edu), en route to my Ph.D.!
 
 - **[May 2026]** I am thrilled to share that I will be joining the [Gritton Lab](https://vetmed.illinois.edu/gritton-lab/) at [UIUC](https://illinois.edu) this summer, as an [IMSI](https://www.imsi.institute) Graduate Student Intern, working at the intersection of Statistical modelling and neuroscience! 
 
