@@ -53,7 +53,7 @@ requiring joint surrogate models over both inputs variables and "hyperparameters
 <!--multi-fidelity methods-->
  
 ## Active learning (AL)
-$\color{#00a0d1}{\text{Active learning addresses the data-efficiency problem:}}$ given a budget of $N$ labelled observations, which input location $x_1, \ldots, x_N \in \mathcal{X}$ should be selected to maximise learning? The Bayesian framing connects directly to optimal experimental design — choosing experiments to maximise expected information gain
+$\color{#00a0d1}{\text{Active learning addresses the data-efficiency problem:}}$ given a budget of $N$ labelled observations, which input location $x_1, \ldots, x_N \in \mathcal{X}$ should be selected to maximise learning? The Bayesian framing connects directly to optimal experimental design, choosing experiments to maximise expected information gain
  
 $$\mathbb{E}\!\left[D_{\mathrm{KL}}\!\left(\pi(\theta \mid y)\;\|\;\pi(\theta)\right)\right].$$
  
@@ -62,7 +62,19 @@ I aim to develop AL strategies for scientific and engineering applications where
 **Topics:** optimal experimental design · information gain · acquisition functions · surrogates · ALM/ALC/ALD
 
 ## Monte carlo inference
-Update coming soon!
+Posterior distributions $\pi(\theta \mid y) \propto \pi(y \mid \theta)\,\pi(\theta)$ rarely admit a closed form, and the normalising constant is intractable in high-dimensions $( typically d > 5)$. $\color{#00a0d1}{\text{Monte Carlo inference replaces this integral}}$ $\color{#00a0d1}{\text{with an empirical average over samples}}$ drawn from the posterior, so that for $\theta^{(1)}, \ldots, \theta^{(N)} \sim \pi(\theta \mid y)$,
+
+$$\mathbb{E}[g(\theta) \mid y] \approx \frac{1}{N}\sum_{i=1}^N g(\theta^{(i)}),$$
+
+with error decaying at the canonical $O(N^{-1/2})$ rate, independent of the dimension of $\theta$.
+
+My work draws on:
+- $\color{#00a0d1}{\text{MCMC:}}$ Metropolis–Hastings, Gibbs, and Hamiltonian Monte Carlo, constructing a Markov chain whose stationary distribution is the target posterior.
+- $\color{#00a0d1}{\text{Importance sampling \& SMC:}}$ reweighting samples from a tractable proposal $q(\theta)$ via $w(\theta) = \pi(\theta \mid y)/q(\theta)$ when direct sampling is infeasible.
+
+I am particularly interested in surrogate-assisted sampling, where an expensive forward model embedded in the likelihood (for example, a PDE solver is replaced by a Gaussian process emulator), making chains feasible at scale while propagating emulator uncertainty back into the posterior.
+
+**Topics:** MCMC (Metropolis-Hastings, HMC) · importance sampling · sequential Monte Carlo · surrogate-assisted inference · convergence diagnostics
 
  
 ---
