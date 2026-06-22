@@ -62,7 +62,7 @@ I aim to develop AL strategies for scientific and engineering applications where
 **Topics:** optimal experimental design · information gain · acquisition functions · surrogates · ALM/ALC/ALD
 
 ## Monte carlo inference
-Posterior distributions $\pi(\theta \mid y) \propto \pi(y \mid \theta)\,\pi(\theta)$ rarely admit a closed form, and the normalising constant is intractable in high-dimensions $( typically d > 5)$. $\color{#00a0d1}{\text{Monte Carlo inference replaces this integral}}$ $\color{#00a0d1}{\text{with an empirical average over samples}}$ drawn from the posterior, so that for $\theta^{(1)}, \ldots, \theta^{(N)} \sim \pi(\theta \mid y)$,
+Posterior distributions $\pi(\theta \mid y) \propto \pi(y \mid \theta)\,\pi(\theta)$ rarely admit a closed form, and the normalising constant is intractable in high-dimensions (typically $d > 5$). $\color{#00a0d1}{\text{Monte Carlo inference replaces this integral}}$ $\color{#00a0d1}{\text{with an empirical average over samples}}$ drawn from the posterior, so that for $\theta^{(1)}, \ldots, \theta^{(N)} \sim \pi(\theta \mid y)$,
 
 $$\mathbb{E}[g(\theta) \mid y] \approx \frac{1}{N}\sum_{i=1}^N g(\theta^{(i)}),$$
 
