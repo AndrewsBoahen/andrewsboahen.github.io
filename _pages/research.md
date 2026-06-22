@@ -70,7 +70,7 @@ with error decaying at the canonical $O(N^{-1/2})$ rate, independent of the dime
 
 My work draws on:
 - $\color{#00a0d1}{\text{MCMC:}}$ Metropolis–Hastings, Gibbs, and Hamiltonian Monte Carlo, constructing a Markov chain whose stationary distribution is the target posterior.
-- $\color{#00a0d1}{\text{Importance sampling \& SMC:}}$ reweighting samples from a tractable proposal $q(\theta)$ via $w(\theta) = \pi(\theta \mid y)/q(\theta)$ when direct sampling is infeasible.
+- $\color{#00a0d1}{\text{Importance sampling & SMC:}}$ reweighting samples from a tractable proposal $q(\theta)$ via $w(\theta) = \pi(\theta \mid y)/q(\theta)$ when direct sampling is infeasible.
 
 I am particularly interested in surrogate-assisted sampling, where an expensive forward model embedded in the likelihood (for example, a PDE solver is replaced by a Gaussian process emulator), making chains feasible at scale while propagating emulator uncertainty back into the posterior.
 
