@@ -39,7 +39,7 @@ second-semester graduate course covering advanced Multivariate normal distributi
 **Enrollment:** ~10 students
 
 ### STT 200: 
-**Grader · Fall 2022, Spring 2023, Fall 2023, Spring 2024, Fall 2024, Spring 2025, Fall 2026**
+**Teaching Assistant · Fall 2022, Spring 2023, Fall 2023, Spring 2024, Fall 2024, Spring 2025, Fall 2026**
 
 Undergraduate course covering data analysis, informal probability models and random variables, randomization-based inference, confidence intervals, and simple linear regression  
 
@@ -47,22 +47,61 @@ Undergraduate course covering data analysis, informal probability models and ran
 **Instructor:** [Camille Fairbourn]
 **Enrollment:** ~90 students
 
+## University of Ghana
+
+### STAT 221: Introductory Probability I
+**Teaching Assistant · Fall 2019**
+
+Undergraduate course covering foundational probability laws, random variables, and standard discrete and continuous distributions.
+
+**Responsibilities:** Conducted weekly tutorial sections by solving custom problem sets; hosted office hours for students needing extra help with the material; graded exams and homeworks.
+**Instructor:** [Prof. Louis Asiedu]
+**Enrollment:** ~100 students
+
+### ACTU 407: Survival Analysis and Modelling 
+**Teaching Assistant · Fall 2019**
+
+Undergraduate course introducing survival analysis and its real life applications. The course covered topics such as, survival distribution functions, force of mortality, hazard rates, parametric and non-parametric methods to estimate survival probabilities.
+
+**Responsibilities:** Conducted weekly tutorial sections by solving custom problem sets; hosted office hours for students needing extra help with the material; graded exams and homeworks.
+**Instructor:** [Prof. Louis asiedu]
+**Enrollment:** ~20 students
+
+
+### STAT 451: Introduction to Stochastic Processes 
+**Teaching Assistant · Fall 2019**
+
+Undergraduate course covering discrete and continuous time processes, Markov  chains, random  walks, birth  and  death processes, random trees and Galton-Watson processes,
+
+**Responsibilities:** Conducted weekly tutorial sections by solving custom problem sets; hosted office hours for students needing extra help with the material; graded exams and homeworks.
+**Instructor:** [Prof. Louis asiedu]
+**Enrollment:** ~20 students
+
+
+### STAT 608: Biostatistical Processes  
+**Teaching Assistant · Spring 2020**
+
+Graduate course covering various modelling techniques and their applicability to data mainly in the fields of Biology and Medicine. Some topics include: Deterministic and Stochastic Models of Population Change; the concept and structure of life tables, competing risks of illness and death, survival and life expectancy of populations at risk.
+
+**Responsibilities:** Conducted weekly tutorial sections by solving custom problem sets; graded exams and homeworks.
+**Instructor:** [Prof. Louis asiedu]
+**Enrollment:** ~15 students
+
+
+### STAT 446: Multivariate Methods  
+**Teaching Assistant · Spring 2020**
+
+Undergraduate course introducing the theory and methods of multivariate data analysis. Topics discussed included: Estimation and Tests of Hypotheses, Profile Analysis, Discriminant Analysis, Factor Analysis, Principal  Component Analysis  and  Cluster Analysis.
+
+**Responsibilities:** Conducted weekly tutorial sections by solving custom problem sets; hosted office hours for students needing extra help with the material; graded exams and homeworks.
+**Instructor:** [Prof. Louis asiedu]
+**Enrollment:** ~35 students
+
+<!--
 
 ## Valley view university
 
-### Tutor, Mathematical Sciences Program
-**2022–2023**
-
-<!-- Fill in what you actually did — tutorials, marking, one-on-ones, workshops. -->
-
-## University of Ghana
-
-### Undergraduate Teaching Assistant, Actuarial Science
-**[Term/Year]**
-
-<!-- Fill in course, role. -->
-
-<!---
+### Teaching Assistant
 
 ## Guest Lectures & Workshops
 
