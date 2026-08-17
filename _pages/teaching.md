@@ -17,7 +17,7 @@ I approach teaching statistics as $\color{#00a0d1}{\text{building intuition firs
 Second-semester graduate course covering extensions of the CLT, martingale theory and Brownian motion. 
 
 **Responsibilities:** Graded weekly assignments and provided feedback to graduate students preparing for the qualifying exams  
-**Instructor:** [Prof. Shlomo Levental] (https://directory.natsci.msu.edu/directory/Profiles/Person/102576) 
+**Instructor:** [Prof. Shlomo Levental](https://directory.natsci.msu.edu/directory/Profiles/Person/102576) 
 **Enrollment:** ~12 students
 
 ### STT 872: Statistical Inference I 
@@ -26,7 +26,7 @@ Second-semester graduate course covering extensions of the CLT, martingale theor
 second-semester graduate course covering advanced theoretical statistics, decision theory, point and interval estimation, and hypothesis testing. 
 
 **Responsibilities:** Graded weekly problem sets and provided feedback to graduate students preparing for the qualifying exams.  
-**Instructor:** [Dr. Shrijita Bhattacharya] (https://shrijitabhattacharya.github.io)  
+**Instructor:** [Dr. Shrijita Bhattacharya](https://shrijitabhattacharya.github.io)  
 **Enrollment:** ~12 students
 
 ### STT 843: Multivariate Analysis
