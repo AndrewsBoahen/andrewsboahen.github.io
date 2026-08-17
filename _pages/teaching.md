@@ -43,7 +43,7 @@ Second-semester graduate course covering advanced Multivariate normal distributi
 
 Undergraduate course covering data analysis, informal probability models and random variables, randomization-based inference, confidence intervals, and simple linear regression  
 
-**Responsibilities:** Held weekly office hours to work through course concepts and problem sets with students, and collaborated with the instructional team in weekly meetings to design and grade homework, midterms, and final exams. Maintained course records and applied consistent grading standards in line with departmental policy on academic integrity.  
+**Responsibilities:** Held weekly office hours to work through course concepts and problem sets with students, and collaborated with the instructional team in weekly meetings to design and grade homework, midterms, and final exams.  
 **Enrollment:** ~30 students
 
 ### STT 200: Statistical Methods
