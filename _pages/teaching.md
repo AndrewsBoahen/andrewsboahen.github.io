@@ -16,8 +16,8 @@ I approach teaching statistics as $\color{#00a0d1}{\text{building intuition firs
 
 Second-semester graduate course covering extensions of the CLT, martingale theory and Brownian motion. 
 
-**Responsibilities:** Graded weekly assignments and provided feedback to graduate students preparing for the qualifying exams.  
-**Instructor:** [Prof. Shlomo Levental]
+**Responsibilities:** Graded weekly assignments and provided feedback to graduate students preparing for the qualifying exams  
+**Instructor:** [Prof. Shlomo Levental]  
 **Enrollment:** ~12 students
 
 ### STT 872: Statistical Inference I 
@@ -25,8 +25,8 @@ Second-semester graduate course covering extensions of the CLT, martingale theor
 
 second-semester graduate course covering advanced theoretical statistics, decision theory, point and interval estimation, and hypothesis testing. 
 
-**Responsibilities:** Graded weekly problem sets and provided feedback to graduate students preparing for the qualifying exams.
-**Instructor:** [Dr. Shrijita Bhattacharya]
+**Responsibilities:** Graded weekly problem sets and provided feedback to graduate students preparing for the qualifying exams.  
+**Instructor:** [Dr. Shrijita Bhattacharya]  
 **Enrollment:** ~12 students
 
 ### STT 843: Multivariate Analysis
@@ -34,8 +34,8 @@ second-semester graduate course covering advanced theoretical statistics, decisi
 
 second-semester graduate course covering advanced Multivariate normal distribution, tests of hypotheses on means, multivariate analysis of variance, discriminant analysis, principal components and factor analysis.  
 
-**Responsibilities:** Graded \& drafted solutions to weekly problem sets. I also provided feedback to enrolled students.
-**Instructor:** [Dr. Shrijita Bhattacharya]
+**Responsibilities:** Graded \& drafted solutions to weekly problem sets. I also provided feedback to enrolled students.  
+**Instructor:** [Dr. Shrijita Bhattacharya]  
 **Enrollment:** ~10 students
 
 ### STT 200: 
@@ -43,8 +43,8 @@ second-semester graduate course covering advanced Multivariate normal distributi
 
 Undergraduate course covering data analysis, informal probability models and random variables, randomization-based inference, confidence intervals, and simple linear regression  
 
-**Responsibilities:** Led weekly recitation sections; hosted office hours at the Statistics Learning Center; graded recitations and exams.
-**Instructor:** [Camille Fairbourn]
+**Responsibilities:** Led weekly recitation sections; hosted office hours at the Statistics Learning Center; graded recitations and exams.  
+**Instructor:** [Camille Fairbourn]  
 **Enrollment:** ~90 students
 
 ## University of Ghana
@@ -55,7 +55,7 @@ Undergraduate course covering data analysis, informal probability models and ran
 Undergraduate course covering foundational probability laws, random variables, and standard discrete and continuous distributions.
 
 **Responsibilities:** Conducted weekly tutorial sections by solving custom problem sets; hosted office hours for students needing extra help with the material; graded exams and homeworks.
-**Instructor:** [Prof. Louis Asiedu]
+**Instructor:** [Prof. Louis Asiedu]  
 **Enrollment:** ~100 students
 
 ### ACTU 407: Survival Analysis and Modelling 
@@ -64,7 +64,7 @@ Undergraduate course covering foundational probability laws, random variables, a
 Undergraduate course introducing survival analysis and its real life applications. The course covered topics such as, survival distribution functions, force of mortality, hazard rates, parametric and non-parametric methods to estimate survival probabilities.
 
 **Responsibilities:** Conducted weekly tutorial sections by solving custom problem sets; hosted office hours for students needing extra help with the material; graded exams and homeworks.
-**Instructor:** [Prof. Louis asiedu]
+**Instructor:** [Prof. Louis asiedu]  
 **Enrollment:** ~20 students
 
 
@@ -74,7 +74,7 @@ Undergraduate course introducing survival analysis and its real life application
 Undergraduate course covering discrete and continuous time processes, Markov  chains, random  walks, birth  and  death processes, random trees and Galton-Watson processes,
 
 **Responsibilities:** Conducted weekly tutorial sections by solving custom problem sets; hosted office hours for students needing extra help with the material; graded exams and homeworks.
-**Instructor:** [Prof. Louis asiedu]
+**Instructor:** [Prof. Louis asiedu]  
 **Enrollment:** ~20 students
 
 
@@ -84,7 +84,7 @@ Undergraduate course covering discrete and continuous time processes, Markov  ch
 Graduate course covering various modelling techniques and their applicability to data mainly in the fields of Biology and Medicine. Some topics include: Deterministic and Stochastic Models of Population Change; the concept and structure of life tables, competing risks of illness and death, survival and life expectancy of populations at risk.
 
 **Responsibilities:** Conducted weekly tutorial sections by solving custom problem sets; graded exams and homeworks.
-**Instructor:** [Prof. Louis asiedu]
+**Instructor:** [Prof. Louis asiedu]  
 **Enrollment:** ~15 students
 
 
@@ -94,7 +94,7 @@ Graduate course covering various modelling techniques and their applicability to
 Undergraduate course introducing the theory and methods of multivariate data analysis. Topics discussed included: Estimation and Tests of Hypotheses, Profile Analysis, Discriminant Analysis, Factor Analysis, Principal  Component Analysis  and  Cluster Analysis.
 
 **Responsibilities:** Conducted weekly tutorial sections by solving custom problem sets; hosted office hours for students needing extra help with the material; graded exams and homeworks.
-**Instructor:** [Prof. Louis asiedu]
+**Instructor:** [Prof. Louis asiedu]  
 **Enrollment:** ~35 students
 
 <!--
