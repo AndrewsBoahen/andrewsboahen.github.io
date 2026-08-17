@@ -26,7 +26,7 @@ Second-semester graduate course covering extensions of the CLT, martingale theor
 second-semester graduate course covering advanced theoretical statistics, decision theory, point and interval estimation, and hypothesis testing. 
 
 **Responsibilities:** Graded weekly problem sets and provided feedback to graduate students preparing for the qualifying exams.  
-**Instructor:** [Dr. Shrijita Bhattacharya] (https://shrijitabhattacharya.github.io) 
+**Instructor:** [Dr. Shrijita Bhattacharya] (https://shrijitabhattacharya.github.io)  
 **Enrollment:** ~12 students
 
 ### STT 843: Multivariate Analysis
