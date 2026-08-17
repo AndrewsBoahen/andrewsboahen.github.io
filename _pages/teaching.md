@@ -91,7 +91,7 @@ Undergraduate course covering discrete and continuous time processes, Markov  ch
 
 Graduate course covering various modelling techniques and their applicability to data mainly in the fields of Biology and Medicine. Some topics include: Deterministic and Stochastic Models of Population Change; the concept and structure of life tables, competing risks of illness and death, survival and life expectancy of populations at risk.
 
-**Responsibilities:** Conducted weekly tutorial sections by solving custom problem sets; graded exams and homeworks.
+**Responsibilities:** Conducted weekly tutorial sections by solving custom problem sets; graded exams and homeworks.  
 **Instructor:** [Prof. Louis asiedu](https://www.ug.edu.gh/statistics/people/prof-louis-asiedu)  
 **Enrollment:** ~15 students
 
