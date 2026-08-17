@@ -17,13 +17,13 @@ I approach teaching statistics as $\color{#00a0d1}{\text{building intuition firs
 Second-semester graduate course covering extensions of the CLT, martingale theory and Brownian motion. 
 
 **Responsibilities:** Graded weekly assignments and provided feedback to graduate students preparing for the qualifying exams  
-**Instructor:** [Prof. Shlomo Levental](https://directory.natsci.msu.edu/directory/Profiles/Person/102576) 
+**Instructor:** [Prof. Shlomo Levental](https://directory.natsci.msu.edu/directory/Profiles/Person/102576)  
 **Enrollment:** ~12 students
 
 ### STT 872: Statistical Inference I 
 **Grader · Spring 2026**
 
-second-semester graduate course covering advanced theoretical statistics, decision theory, point and interval estimation, and hypothesis testing. 
+Second-semester graduate course covering advanced theoretical statistics, decision theory, point and interval estimation, and hypothesis testing. 
 
 **Responsibilities:** Graded weekly problem sets and provided feedback to graduate students preparing for the qualifying exams.  
 **Instructor:** [Dr. Shrijita Bhattacharya](https://shrijitabhattacharya.github.io)  
@@ -32,7 +32,7 @@ second-semester graduate course covering advanced theoretical statistics, decisi
 ### STT 843: Multivariate Analysis
 **Grader · Spring 2026**
 
-second-semester graduate course covering advanced Multivariate normal distribution, tests of hypotheses on means, multivariate analysis of variance, discriminant analysis, principal components and factor analysis.  
+Second-semester graduate course covering advanced Multivariate normal distribution, tests of hypotheses on means, multivariate analysis of variance, discriminant analysis, principal components and factor analysis.  
 
 **Responsibilities:** Graded \& drafted solutions to weekly problem sets. I also provided feedback to enrolled students.  
 **Instructor:** [Dr. Guanqun Cao](https://sites.google.com/view/guanquncaowebpage)  
@@ -84,7 +84,7 @@ Undergraduate course covering discrete and continuous time processes, Markov  ch
 Graduate course covering various modelling techniques and their applicability to data mainly in the fields of Biology and Medicine. Some topics include: Deterministic and Stochastic Models of Population Change; the concept and structure of life tables, competing risks of illness and death, survival and life expectancy of populations at risk.
 
 **Responsibilities:** Conducted weekly tutorial sections by solving custom problem sets; graded exams and homeworks.
-**Instructor:** [Prof. Louis asiedu](https://www.ug.edu.gh/statistics/people/prof-louis-asiedu)  
+**Instructor:** [Prof. Louis asiedu](https://www.ug.edu.gh/statistics/people/prof-louis-asiedu)   
 **Enrollment:** ~15 students
 
 
