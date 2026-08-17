@@ -16,7 +16,7 @@ I approach teaching statistics as $\color{#00a0d1}{\text{building intuition firs
 
 Second-semester graduate course covering extensions of the CLT, martingale theory and Brownian motion. 
 
-**Responsibilities:** Graded weekly assignments and provided feedback to graduate students preparing for the qualifying exams.
+**Responsibilities:** Graded weekly assignments and provided feedback to graduate students preparing for the qualifying exams.  
 **Instructor:** [Prof. Shlomo Levental]
 **Enrollment:** ~12 students
 
