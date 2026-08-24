@@ -4,7 +4,7 @@ authors: Boahen, A. K. and Sung, C-L"
 year: "In Preparation"
 collection: publications
 category: manuscripts
-permalink: /publication/To-appear-AL-NAC
+permalink: /publication/To-appear-Theo-NAC
 status: 
 paperurl: ' '
 citation: ' '
