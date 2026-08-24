@@ -1,0 +1,11 @@
+---
+title: "Convergence Results for the Nonlinear Calibration Emulator for Computer Models under Squared Exponential and Mat\'{e}rn Kernels"
+authors: Boahen, A. K. and Sung, C-L" 
+year: "In Preparation"
+collection: publications
+category: manuscripts
+permalink: /publication/To-appear-AL-NAC
+status: 
+paperurl: ' '
+citation: ' '
+---
