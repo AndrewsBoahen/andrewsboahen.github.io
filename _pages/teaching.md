@@ -9,7 +9,7 @@ author_profile: true
 
 I approach teaching statistics as $\color{#00a0d1}{\text{building intuition first, formalism second}}$. My primary goal as an instructor is to help students discover their intellectual potential and develop the confidence to think critically and logically. I strive to make students embrace mistakes not as failures but as valuable windows into their gaps in understanding. To be able to achieve this goal, I require an active participation from my audience and tend to pause and ask  “What should the next step be, and why?”. In proof-intensive courses, I frequently encourage students to articulate the role of every assumption and explore what happens when those assumptions fail.
 
-## Michigan State University
+## $\color{#006400}\text{Michigan State University}
 
 ### STT 882: Probability Theory II 
 **Grader · Spring 2026**
