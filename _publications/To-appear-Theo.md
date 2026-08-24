@@ -1,5 +1,5 @@
 ---
-title: "Convergence Results for the Nonlinear Calibration Emulator for Computer Models under Squared Exponential and Mat\''{e}rn Kernels"
+title: "Convergence Results for the Nonlinear Calibration Emulator for Computer Models under Squared Exponential and Matern Kernels"
 authors: Boahen, A. K. and Sung, C-L" 
 year: "In Preparation"
 collection: publications
