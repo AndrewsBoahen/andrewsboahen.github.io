@@ -55,7 +55,7 @@ Undergraduate course covering data analysis, informal probability models and ran
 **Instructor:** [Camille Fairbourn](https://directory.natsci.msu.edu/Directory/Profiles/Person/102579?org=2&group=152)  
 **Enrollment:** ~90 students
 
-## University of Ghana
+## $\color{red}\text{University of Ghana}$
 
 ### STAT 221: Introductory Probability I
 **Teaching Assistant · Fall 2019**
