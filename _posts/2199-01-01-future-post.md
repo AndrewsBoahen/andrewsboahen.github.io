@@ -1,6 +1,6 @@
 ---
 title: 'Future Blog Post: A Note on The Connections & Equivalences of Gaussian Processes and Reproducing Kernels'
-date: 2199-01-01
+date: 2026-08-26
 permalink: /posts/2199-01-01-future-post/
 tags: [ Reproducing Kernel Hilbert Spaces, Gaussian Hilbert Spaces, Orthogonal Basis Expansions]
 toc: true
