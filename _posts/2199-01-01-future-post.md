@@ -3,10 +3,6 @@ title: 'Future Blog Post: A Note on The Connections & Equivalences of Gaussian P
 date: 2026-08-26
 permalink: /posts/2199-01-01-future-post/
 tags: [ Reproducing Kernel Hilbert Spaces, Gaussian Hilbert Spaces, Orthogonal Basis Expansions]
-toc: true
-toc_label: "Contents"
-toc_icon: "list"
-toc_sticky: true
 mermaid: true
 ---
 
