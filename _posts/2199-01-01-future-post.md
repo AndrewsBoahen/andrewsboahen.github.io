@@ -21,4 +21,4 @@ mermaid: true
 
 ### The Moore-Aronszajn Theorem
 
-## References {: .no_toc}
+## References
