@@ -6,8 +6,8 @@ redirect_from:
   - /about/
   - /about.html
 ---
-{: .notice--success .large-quote}
-"We are a sum total of what we have learned from all who have taught us, both great and small."~ *Dr. Myles munroe* 
+<!-- {: .notice--success .large-quote}
+"We are a sum total of what we have learned from all who have taught us, both great and small."~ *Dr. Myles munroe* --!> 
 
 Hi! I'm Andrews Boahen, a Doctoral Candidate in the [Department of Statistics & Probability](https://stt.natsci.msu.edu) at Michigan State University, where I also earned my M.S. in Statistics en route to the Ph.D. Under the mentorship of [Dr. Chih-Li Sung](https://chihli.github.io), I develop methods for computer model calibration and active learning. My broader interests span ***uncertainty quantification, surrogate modeling, Bayesian inverse problems and inference, Bayesian optimization*** and ***generative modelling***, with applications in computer experiments, engineering sciences, and mission-critical physical systems.
 
