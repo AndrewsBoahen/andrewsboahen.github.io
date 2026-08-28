@@ -9,7 +9,7 @@ author_profile: true
 ## Research Overview
 My research sits at the intersection of $\color{#00a0d1}{\text{statistical theory,}}$ $\color{#00a0d1}{\text{probabilistic computation,}}$ and $\color{#00a0d1}{\text{scientific inference}}$. I enjoy developing principled frameworks for reasoning under uncertainty in complex, high-dimensional systems. 
 
-Specifically, my research spans the topics of **Uncertainty quantification, Bayesian inverse problems, Monte carlo inference, Active learning** and **Optimization under uncertainty** with application areas from computer experiments and engineering sciences to digital twins and mission-critical physical systems.
+Specifically, my research spans the topics of ***uncertainty quantification, surrogate modeling, Bayesian inverse problems and inference, Bayesian optimization*** and ***generative modeling***, with applications in computer experiments, engineering sciences, and mission-critical physical systems.
 
 <!--**Keywords:** <small> $\color{#00a0d1}{\text{Bayesian statistics}}$ · $\color{#00a0d1}{\text{MCMC}}$ · $\color{#00a0d1}{\text{Inverse problems}}$ · $\color{#00a0d1}{\text{Gaussian processes}}$ · $\color{#00a0d1}{\text{Optimisation}}$ · $\color{#00a0d1}{\text{Scientific ML}}$ <small> -->
 
