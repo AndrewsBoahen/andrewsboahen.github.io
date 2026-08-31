@@ -19,7 +19,7 @@ Before coming to MSU, I earned a first-class B.Sc. in Actuarial Science from the
 <div class="news" markdown="1">
 
 - **[Aug 2026]** Delighted by the invitation to present my work on ***computer model calibration*** at [ISNET-12](https://conferences.lbl.gov/event/2526/page/331-participate-in-isnet-12), hosted by [Lawrence Berkeley National Lab](https://www.lbl.gov/).
-- 
+ 
 - **[May 2026]** Happy to announce that I have been awarded the M.Sc. in Statistics from [MSU](https://msu.edu), en route to my Ph.D.!
 
 - **[May 2026]** I am thrilled to share that I will be joining the [Gritton Lab](https://vetmed.illinois.edu/gritton-lab/) at [UIUC](https://illinois.edu) this summer, as an [IMSI](https://www.imsi.institute) Graduate Student Intern, working at the intersection of Statistical modelling and neuroscience under the guidance of [Dr. Howard Gritton](https://neuroscience.illinois.edu/directory/profile/hgritton) & [Dr. Jozien Goense](https://neuroscience.illinois.edu/directory/profile/goense)! 
