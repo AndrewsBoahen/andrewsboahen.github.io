@@ -176,11 +176,15 @@
   position: relative;
   min-width: 250px;
   background: var(--global-bg-color);
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
 
   a {
     display: block;
     margin: 0 1rem;
     padding: 0.5rem 0;
+    font-size: 1.15rem;
     color: var(--global-masthead-link-color);
     text-decoration: none;
 
@@ -203,11 +207,12 @@
   }
 
   .visible-links {
-    display: table;
+    display: flex;
+    align-items: center;
 
     li {
-      display: table-cell;
-      vertical-align: middle;
+      display: flex;
+      align-items: center;
 
       &:first-child {
         font-weight: bold;
@@ -249,13 +254,13 @@
         transition: $global-transition;
         -webkit-transform: scaleX(0);
             -ms-transform: scaleX(0);
-                transform: scaleX(0); /* hide*/
+                transform: scaleX(0);
       }
 
       &:hover:before {
         -webkit-transform: scaleX(1);
             -ms-transform: scaleX(1);
-                transform: scaleX(1); /* reveal*/
+                transform: scaleX(1);
       }
     }
   }
@@ -318,7 +323,6 @@
     }
   }
 }
-
 
 /*
    Navigation list
