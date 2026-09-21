@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 
+title: false
 permalink: /research/
 author_profile: true
 ---
