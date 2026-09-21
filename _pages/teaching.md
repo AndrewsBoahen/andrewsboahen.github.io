@@ -35,7 +35,7 @@ vals, hypothesis testing using Bayes factors, and Bayesian decision theory. Appr
 
 First-semester undergraduate course covering advanced statistical modeling, preliminary data analysis, machine learning, statistical software (Python), Statistical analysis of data and data visualization
 
-**Responsibilities:** Graded weekly assignments and provided feedback to undergraduate students 
+**Responsibilities:** Graded weekly Python notebooks and provided feedback to undergraduate students 
 **Instructor:** [Dr. Yue Xing](https://sites.google.com/site/xingyuecuhk/)  
 **Enrollment:** ~30 students
 
