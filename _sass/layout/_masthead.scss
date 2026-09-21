@@ -25,17 +25,17 @@
   }
 
   &__inner-wrap {
-  @include container;
-  @include clearfix;
-  padding: 0.5em 1em;
-  font-family: $sans-serif-narrow;
-  display: flex;              // ← add
-  align-items: center;        // ← add
-  justify-content: space-between; // ← add: title stays left, nav pushed to the far right
+    @include container;
+    @include clearfix;
+    padding: 0.5em 1em;
+    font-family: $sans-serif-narrow;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 
-  @include breakpoint($x-large) {
-    max-width: $x-large;
-  }
+    @include breakpoint($x-large) {
+      max-width: $x-large;
+    }
 
     nav {
       z-index: 10;
@@ -45,6 +45,14 @@
       text-decoration: none;
     }
   }
+}
+
+.site-title {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1.25rem;
+  color: var(--global-masthead-link-color);
 }
 
 .masthead__menu {
@@ -62,7 +70,7 @@
   display: block;
   list-style-type: none;
   white-space: nowrap;
-  font-size: 1.05em;   // ← add this; tune to taste (1em = current body size)
+  font-size: 1.05em;
 
   &--lg {
     padding-right: 2em;
