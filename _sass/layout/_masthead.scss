@@ -56,6 +56,9 @@
 }
 
 .masthead__menu {
+  flex: 1;              // ← add: let it claim the remaining space next to .site-title
+  display: flex;        // ← add
+  justify-content: flex-end;  // ← add: keeps the nav itself right-aligned within that space
 
   ul {
     margin: 0;
