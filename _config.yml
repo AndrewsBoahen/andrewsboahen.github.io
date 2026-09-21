@@ -10,7 +10,7 @@
 locale                   : "en-US"
 #site_theme               : "default"
 remote_theme             : "mmistakes/minimal-mistakes@4.26.2"  # Latest stable version compatible with GitHub Pages
-title                    : "Andrews Boahen"
+title                    : "Andrews Boahen's Homepage"
 title_separator          : "-"
 name                     : &name "Andrews Boahen"
 description              : &description "Your Name's academic portfolio"
