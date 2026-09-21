@@ -179,6 +179,7 @@
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  flex: 1;
 
   a {
     display: block;
@@ -207,12 +208,11 @@
   }
 
   .visible-links {
-    display: flex;
-    align-items: center;
+    display: table;
 
     li {
-      display: flex;
-      align-items: center;
+      display: table-cell;
+      vertical-align: middle;
 
       &:first-child {
         font-weight: bold;
