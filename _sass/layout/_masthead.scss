@@ -25,14 +25,17 @@
   }
 
   &__inner-wrap {
-    @include container;
-    @include clearfix;
-    padding: 0.5em 1em;
-    font-family: $sans-serif-narrow;
+  @include container;
+  @include clearfix;
+  padding: 0.5em 1em;
+  font-family: $sans-serif-narrow;
+  display: flex;              // ← add
+  align-items: center;        // ← add
+  justify-content: space-between; // ← add: title stays left, nav pushed to the far right
 
-    @include breakpoint($x-large) {
-      max-width: $x-large;
-    }
+  @include breakpoint($x-large) {
+    max-width: $x-large;
+  }
 
     nav {
       z-index: 10;
