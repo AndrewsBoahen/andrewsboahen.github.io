@@ -16,7 +16,7 @@ I approach teaching statistics as $\color{#00a0d1}{\text{building intuition firs
 
 First-semester graduate course covering Bayesian estimation, credible intervals, hypothesis testing using Bayes factors, Bayesian decision theory, computational techniques, including conjugate analysis, Monte Carlo methods, Markov chain Monte Carlo (MCMC), Gibbs sampling, and Metropolis–Hastings algorithms. The course also explores Bayesian linear and generalized linear models, hierarchical Bayesian models, model comparison, model selection, and Bayesian prediction. 
 
-**Responsibilities:** Graded weekly assignments and provided feedback to graduate students
+**Responsibilities:** Graded weekly assignments and provided feedback to graduate students 
 **Instructor:** [Dr. Guanyu Hu](https://directory.natsci.msu.edu/directory/Profiles/Person/105576)  
 **Enrollment:** ~11 students
 
