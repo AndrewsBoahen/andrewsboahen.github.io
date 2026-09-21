@@ -59,6 +59,7 @@
   display: block;
   list-style-type: none;
   white-space: nowrap;
+  font-size: 1.05em;   // ← add this; tune to taste (1em = current body size)
 
   &--lg {
     padding-right: 2em;
