@@ -9,15 +9,24 @@ author_profile: true
 
 <style>
   .project-group {
-    margin-bottom: 1.5rem;
-  }
-  .project-group__tag {
-    font-size: 0.75rem;
-    text-transform: uppercase;
-    letter-spacing: 0.06em;
-    color: var(--global-text-color-light);
-    margin: 0 0 0.75rem;
-  }
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+.project-group__tag {
+  flex: 0 0 auto;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--global-text-color-light);
+  padding-top: 0.3rem;
+  white-space: nowrap;
+}
+.project-group__items {
+  flex: 1 1 auto;
+  min-width: 0;
+}
   .project-card {
     margin-bottom: 1.25rem;
   }
@@ -54,10 +63,12 @@ author_profile: true
   {% assign grouped_projects = sorted_projects | group_by: 'tag' %}
   {% for group in grouped_projects %}
     <div class="project-group">
-      <h3 class="project-group__tag">{{ group.name }}</h3>
-      {% for post in group.items %}
-        {% include project-card.html %}
-      {% endfor %}
+      <div class="project-group__tag">{{ group.name }}</div>
+      <div class="project-group__items">
+        {% for post in group.items %}
+          {% include project-card.html %}
+        {% endfor %}
+      </div>
     </div>
   {% endfor %}
 {% else %}
