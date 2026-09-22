@@ -56,20 +56,16 @@ author_profile: true
 
 <h2>Side Projects</h2>
 {% if site.portfolio.size > 0 %}
-  {% for post in site.portfolio %}
-    {% include project-card.html %}
+  {% assign sorted_projects = site.portfolio | sort: 'order' %}
+  {% assign grouped_projects = sorted_projects | group_by: 'tag' %}
+  {% for group in grouped_projects %}
+    <div class="project-group">
+      <h3 class="project-group__tag">{{ group.name }}</h3>
+      {% for post in group.items %}
+        {% include project-card.html %}
+      {% endfor %}
+    </div>
   {% endfor %}
 {% else %}
   <p><em>No side projects yet — check back soon.</em></p>
-{% endif %}
-
-<h2>Blog Posts</h2>
-<p>I will be discussing some interesting topics related to (probably not directly) to my research on this page.</p>
-
-{% if site.posts.size > 0 %}
-  {% for post in site.posts %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% else %}
-  <p><em>No posts yet — check back soon.</em></p>
 {% endif %}
