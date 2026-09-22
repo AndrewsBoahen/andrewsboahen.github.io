@@ -1,10 +1,7 @@
 <div class="project-card">
-  <div class="project-card__header">
-    <h4 class="project-card__title">
-      {% if post.demo %}<a href="{{ post.demo }}" target="_blank" rel="noopener">{{ post.title }}</a>{% else %}{{ post.title }}{% endif %}
-    </h4>
-    {% if post.tag %}<span class="project-card__tag">{{ post.tag }}</span>{% endif %}
-  </div>
+  <h4 class="project-card__title">
+    {% if post.demo %}<a href="{{ post.demo }}" target="_blank" rel="noopener">{{ post.title }}</a>{% else %}{{ post.title }}{% endif %}
+  </h4>
   {% if post.description %}<p class="project-card__desc">{{ post.description }}</p>{% endif %}
   <div class="project-card__links">
     {% if post.code %}<a class="project-card__badge" href="{{ post.code }}" target="_blank" rel="noopener">Code</a>{% endif %}
