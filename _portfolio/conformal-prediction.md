@@ -5,4 +5,5 @@ description: "An interactive Streamlit app for exploring conformal prediction ta
 demo: "https://andrewsboahenmyconformalprediction.streamlit.app/"
 code: "https://github.com/AndrewsBoahen/Conformal-Prediction-Streamlit-App-Project"
 tag: "Streamlit App"
+order: 2
 ---
