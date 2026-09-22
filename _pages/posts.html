@@ -63,3 +63,14 @@ author_profile: true
 {% else %}
   <p><em>No side projects yet — check back soon.</em></p>
 {% endif %}
+
+<h2>Blog Posts</h2>
+<p>I will be discussing some interesting topics related to (probably not directly) to my research on this page.</p>
+
+{% if site.posts.size > 0 %}
+  {% for post in site.posts %}
+    {% include archive-single.html %}
+  {% endfor %}
+{% else %}
+  <p><em>No posts yet — check back soon.</em></p>
+{% endif %}
