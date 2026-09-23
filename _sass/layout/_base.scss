@@ -97,7 +97,7 @@ abbr[data-original-title] {
 
 blockquote {
   margin: 2em 1em 2em 0;
-  padding: 0.5em 1.25em;
+  padding: 0.6em 1.25em 0.3em 1.25em;   // ← top 0.6em, right/left 0.9em unchanged, bottom now 0.3em
   font-style: normal;
   font-size: 0.9rem;
   background-color: color-mix(in srgb, var(--global-bg-color) 85%, var(--global-text-color) 15%);
