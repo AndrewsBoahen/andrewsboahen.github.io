@@ -58,6 +58,8 @@ $\color{#00a0d1}{\text{Active learning addresses the data-efficiency problem:}}$
 $$\mathbb{E}\!\left[D_{\mathrm{KL}}\!\left(\pi(\theta \mid y)\;\|\;\pi(\theta)\right)\right].$$
  
 I aim to develop AL strategies for scientific and engineering applications where evaluations are costly, including batch-sequential designs and possibly online settings. A recurring theme is the interplay between the surrogate model's epistemic uncertainty and the practical cost associated with new input location , particularly in settings with structured input spaces or physics-based constraints.
+![Calibration demo](/images/calibration-demo.gif)
+<img src="/images/calibration-demo.gif" alt="Calibration demo" style="max-width: 100%; width: 500px;">
  
 **Topics:** optimal experimental design · information gain · acquisition functions · surrogates · ALM/ALC/ALD
 
