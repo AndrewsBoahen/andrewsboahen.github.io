@@ -1,5 +1,5 @@
 ---
-title: "In Situ Machine Learning for Event Detection"
+title: "In Situ Machine Learning for Intelligent Data Capture and Anomaly Detection"
 collection: talks
 permalink: /talks/Sandia
 venue: "Sandia CSRI Lightning Talks, Sandia National Laboratories"
