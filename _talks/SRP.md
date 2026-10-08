@@ -1,5 +1,5 @@
 ---
-title: "In Situ Machine Learning for Event Detection"
+title: "In Situ Machine Learning for Intelligent Data Capture and Anomaly Detection"
 collection: talks
 permalink: /talks/SRP
 venue: "Sustainable Research Pathways (SRP) Lightning Talks"
