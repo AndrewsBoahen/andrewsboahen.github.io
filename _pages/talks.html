@@ -1,16 +1,54 @@
 ---
-layout: archive
-title: "Talks and presentations"
+layout: single
+title: false
 permalink: /talks/
 author_profile: true
 ---
 
-{% if site.talkmap_link == true %}
+<style>
+  .talks-title { margin: 0 0 0.4em; font-size: 2.2rem; font-weight: 700; }
+  .talks-rule { border: 0; border-top: 1px solid var(--global-border-color); margin: 0 0 0.8em; }
+  .talks-subtitle { color: var(--global-text-color-light); margin: 0 0 2em; }
 
-<p style="text-decoration:underline;"><a href="/talkmap.html">See a map of all the places I've given a talk!</a></p>
+  .talks-year { display: flex; gap: 2rem; padding: 1.5em 0; border-top: 1px solid var(--global-border-color); }
+  .talks-year:first-of-type { border-top: 0; padding-top: 0; }
+  .talks-year__label { flex: 0 0 5.5rem; font-size: 1.8rem; font-weight: 700; line-height: 1.2; }
+  .talks-year__items { flex: 1; min-width: 0; }
 
-{% endif %}
+  .talk { padding: 0 0 1.1em; margin: 0 0 1.1em; border-bottom: 1px solid var(--global-border-color); }
+  .talk:last-child { border-bottom: 0; margin-bottom: 0; padding-bottom: 0; }
+  .talk__title { font-weight: 700; font-size: 1.05rem; margin: 0 0 0.2em; }
+  .talk__venue { margin: 0 0 0.2em; }
+  .talk__meta { color: var(--global-text-color-light); font-size: 0.9rem; margin: 0; }
+  .talk__meta a { margin-left: 0.4em; }
 
-{% for post in site.talks reversed %}
-  {% include archive-single-talk.html %}
+  @media (max-width: 600px) {
+    .talks-year { flex-direction: column; gap: 0.5rem; }
+    .talks-year__label { flex: none; }
+  }
+</style>
+
+<h1 class="talks-title">Talks</h1>
+<hr class="talks-rule">
+<p class="talks-subtitle">Selected conference presentations, invited seminars, and workshops.</p>
+
+{% assign talks_sorted = site.talks | sort: 'date' | reverse %}
+{% assign by_year = talks_sorted | group_by_exp: "t", "t.date | date: '%Y'" %}
+
+{% for year in by_year %}
+<div class="talks-year">
+  <div class="talks-year__label">{{ year.name }}</div>
+  <div class="talks-year__items">
+    {% for t in year.items %}
+    <div class="talk">
+      <p class="talk__title">{{ t.title }}</p>
+      <p class="talk__venue">{{ t.venue }}</p>
+      <p class="talk__meta">
+        {{ t.location }} · {{ t.date | date: "%B, %Y" }}
+        {% if t.link %}<a href="{{ t.link }}" target="_blank" rel="noopener">Event ↗</a>{% endif %}
+      </p>
+    </div>
+    {% endfor %}
+  </div>
+</div>
 {% endfor %}
