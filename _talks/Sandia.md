@@ -1,10 +1,9 @@
 ---
-title: "Sandia CSRI Lightning Talks"
+title: "In Situ Machine Learning for Event Detection"
 collection: talks
-type: "Lightning Talk"
 permalink: /talks/Sandia
-venue: "Sandia National Laboratories"
+venue: "Sandia CSRI Lightning Talks, Sandia National Laboratories"
 date: 2024-07-24
-location: "Alburqueque, NM, USA <br> Title: In Situ Machine Learning for Event
-Detection"
+location: "Albuquerque, NM"
+type: "Lightning Talk"
 ---
