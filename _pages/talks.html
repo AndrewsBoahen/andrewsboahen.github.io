@@ -6,24 +6,25 @@ author_profile: true
 ---
 
 <style>
-  .talks-title { margin: 0 0 0.4em; font-size: 2.2rem; font-weight: 700; }
-  .talks-rule { border: 0; border-top: 1px solid var(--global-border-color); margin: 0 0 0.8em; }
-  .talks-subtitle { color: var(--global-text-color-light); margin: 0 0 2em; }
+  /* Sizes are in rem; change a number to fine-tune. */
+  .talks-title    { margin: 0 0 0.3em; font-size: 1.6rem; font-weight: 700; line-height: 1.2; }
+  .talks-rule     { border: 0; border-top: 1px solid var(--global-border-color); margin: 0 0 0.5em; }
+  .talks-subtitle { color: var(--global-text-color-light); font-size: 0.85rem; margin: 0 0 1.2em; }
 
-  .talks-year { display: flex; gap: 2rem; padding: 1.5em 0; border-top: 1px solid var(--global-border-color); }
+  .talks-year        { display: flex; gap: 1.25rem; padding: 0.9em 0; border-top: 1px solid var(--global-border-color); }
   .talks-year:first-of-type { border-top: 0; padding-top: 0; }
-  .talks-year__label { flex: 0 0 5.5rem; font-size: 1.8rem; font-weight: 700; line-height: 1.2; }
+  .talks-year__label { flex: 0 0 3.5rem; font-size: 1.15rem; font-weight: 700; line-height: 1.3; }
   .talks-year__items { flex: 1; min-width: 0; }
 
-  .talk { padding: 0 0 1.1em; margin: 0 0 1.1em; border-bottom: 1px solid var(--global-border-color); }
+  .talk         { padding: 0 0 0.6em; margin: 0 0 0.6em; border-bottom: 1px solid var(--global-border-color); }
   .talk:last-child { border-bottom: 0; margin-bottom: 0; padding-bottom: 0; }
-  .talk__title { font-weight: 700; font-size: 1.05rem; margin: 0 0 0.2em; }
-  .talk__venue { margin: 0 0 0.2em; }
-  .talk__meta { color: var(--global-text-color-light); font-size: 0.9rem; margin: 0; }
-  .talk__meta a { margin-left: 0.4em; }
+  .talk__title  { font-weight: 700; font-size: 0.95rem; line-height: 1.35; margin: 0 0 0.1em; }
+  .talk__venue  { font-size: 0.88rem; line-height: 1.35; margin: 0 0 0.1em; }
+  .talk__meta   { color: var(--global-text-color-light); font-size: 0.8rem; line-height: 1.35; margin: 0; }
+  .talk__meta a { margin-left: 0.6em; }
 
   @media (max-width: 600px) {
-    .talks-year { flex-direction: column; gap: 0.5rem; }
+    .talks-year { flex-direction: column; gap: 0.3rem; }
     .talks-year__label { flex: none; }
   }
 </style>
@@ -46,6 +47,8 @@ author_profile: true
       <p class="talk__meta">
         {{ t.location }} · {{ t.date | date: "%B, %Y" }}
         {% if t.link %}<a href="{{ t.link }}" target="_blank" rel="noopener">Event ↗</a>{% endif %}
+        {% if t.slides %}<a href="{{ t.slides }}" target="_blank" rel="noopener">Slides ↗</a>{% endif %}
+        {% if t.website %}<a href="{{ t.website }}" target="_blank" rel="noopener">Website ↗</a>{% endif %}
       </p>
     </div>
     {% endfor %}
