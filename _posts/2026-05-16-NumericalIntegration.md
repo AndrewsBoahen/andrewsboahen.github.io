@@ -208,12 +208,12 @@ where \(q(E)\) represents the appropriate energy-dependent weighting function.
 
 More importantly, we can quantify uncertainty in the integral:
 
-\[
+$$
 \operatorname{Var}(I\mid\mathcal D)
 =
 \int_0^\infty\int_0^\infty
 k(E,E')q(E)q(E')\,dE\,dE'.
-\]
+$$
 
 These expressions illustrate an important connection between **Gaussian processes, numerical integration, and uncertainty quantification**.
 
