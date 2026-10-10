@@ -1,16 +1,12 @@
 ---
 layout: single
-title: 'Quadrature Methods & Some Applications'
+title: 'Numerical Quadrature: A Simple Tool Behind Complex Scientific Models'
 collection: posts
 permalink: /posts/2026-05-16-QuadratureMethods/
 date: 2026-05-16
 tags: [Numerical Integration, Definite Integrals, Approximation techniques]
 mermaid: true
 ---
-
-# Numerical Quadrature: A Simple Tool Behind Complex Scientific Models
-
-*Numerical integration, uncertainty quantification, and applications in nuclear physics*
 
 Numerical integration is one of those mathematical tools that appears almost everywhere in scientific computing. Whether we are estimating expectations, quantifying uncertainty, calibrating computer models, or solving inverse problems, we frequently encounter integrals that cannot be evaluated analytically.
 
