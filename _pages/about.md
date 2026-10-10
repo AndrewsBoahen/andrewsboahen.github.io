@@ -13,7 +13,7 @@ Hi! I'm Andrews Boahen, a Doctoral Candidate in the [Department of Statistics & 
 
 Before coming to MSU, I earned a first-class B.Sc. in Actuarial Science from the [Department of Statistics & Actuarial Science](https://www.ug.edu.gh/statistics/home) at the [University of Ghana](https://www.ug.edu.gh) and an M.S. in Mathematical Sciences with distinction from the African Institute for Mathematical Sciences ([AIMS-Ghana](https://aims.edu.gh)), where I worked on large-deviation and extreme-value theory under the supervision of [Prof. Kwabena Doku-Amponsah](https://www.ug.edu.gh/statistics/people/prof-kwabena-doku-amponsah).
 
-I am on the **2026–2027 academic job market**, primarily seeking **postdoctoral research opportunities** in statistical learning, uncertainty quantification, scientific machine learning, and computational statistics. My interests center on developing novel statistical methods for complex scientific systems, particularly through Gaussian process modeling, computer model calibration, Bayesian inference, active learning, and the integration of multiple data sources.
+I am on the **2026–2027 academic job market**, primarily seeking **postdoctoral research opportunities** in statistical learning, uncertainty quantification, scientific machine learning, and computational statistics. My interests center on developing novel statistical methods for complex scientific systems, particularly through surrogate modeling, computer model calibration, Bayesian inference, active learning, and the integration of multiple data sources.
 
 ## News
 
