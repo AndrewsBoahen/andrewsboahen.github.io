@@ -1,0 +1,35 @@
+{% assign pub = include.pub %}
+{% assign pub_venue = pub.venue | default: pub.status | strip %}
+{% assign pub_paper = pub.paperurl | strip %}
+{% assign pub_code = pub.codeurl | strip %}
+{% assign pub_image = pub.image | strip %}
+{% assign pub_abstract = pub.abstract | strip %}
+{% assign pub_authors = pub.authors | remove: '"' | strip | replace: "Boahen, A. K.", "<strong>Boahen, A. K.</strong>" | replace: "Boahen, A.K.", "<strong>Boahen, A.K.</strong>" | replace: "Boahen, Andrew K.", "<strong>Boahen, Andrew K.</strong>" %}
+
+<div class="pub">
+  {% if pub_image != "" %}
+  <div class="pub__thumb">
+    <img src="{% if pub_image contains '/' %}{{ pub_image | relative_url }}{% else %}{{ pub_image | prepend: '/images/publications/' | relative_url }}{% endif %}" alt="">
+  </div>
+  {% endif %}
+
+  <div class="pub__body">
+    <div class="pub__title">{{ pub.title }}</div>
+    {% if pub_authors != "" %}<div class="pub__authors">{{ pub_authors }}</div>{% endif %}
+    {% if pub_venue != "" %}<div class="pub__venue">{{ pub_venue }}</div>{% endif %}
+
+    {% if pub_paper != "" or pub_code != "" %}
+    <div class="pub__links">
+      {% if pub_paper != "" %}<a class="pub__btn" href="{{ pub_paper }}" target="_blank" rel="noopener">Paper ↗</a>{% endif %}
+      {% if pub_code != "" %}<a class="pub__btn" href="{{ pub_code }}" target="_blank" rel="noopener">Code ↗</a>{% endif %}
+    </div>
+    {% endif %}
+
+    {% if pub_abstract != "" %}
+    <details class="pub__abstract">
+      <summary>Read abstract</summary>
+      <div>{{ pub_abstract | markdownify }}</div>
+    </details>
+    {% endif %}
+  </div>
+</div>
