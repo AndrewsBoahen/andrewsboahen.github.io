@@ -8,38 +8,41 @@ author_profile: true
 {% include base_path %}
 
 <style>
+  /* ---------- Blog posts, grouped by year (same look as Publications) ---------- */
+  .post-year        { display: flex; gap: 1.5rem; }
+  .post-year__label { flex: 0 0 4.5rem; padding-top: 1rem; font-size: 1.15rem; font-weight: 700; line-height: 1.3; }
+  .post-year__items { flex: 1; min-width: 0; }
+
+  .post-item { padding: 1rem 0; border-bottom: 1px solid var(--global-border-color); }
+  .page__content .post-item__title   { font-weight: 700; font-size: 0.95rem; line-height: 1.35; }
+  .page__content .post-item__title a { text-decoration: none; }
+  .page__content .post-item__title a:hover { text-decoration: underline; }
+  .page__content .post-item__meta    { color: var(--global-text-color-light); font-size: 0.8rem; line-height: 1.35; margin-top: 0.2em; }
+  .page__content .post-item__summary { color: var(--global-text-color-light); font-size: 0.85rem; line-height: 1.4; margin-top: 0.3em; }
+
+  /* ---------- Side projects ---------- */
   .project-group {
-  display: flex;
-  align-items: flex-start;
-  gap: 1rem;
-  margin-bottom: 1.5rem;
-}
-.project-group__tag {
-  flex: 0 0 auto;
-  font-size: 0.75rem;
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
-  color: var(--global-text-color-light);
-  padding-top: 0.3rem;
-  white-space: nowrap;
-}
-.project-group__items {
-  flex: 1 1 auto;
-  min-width: 0;
-}
-  .project-card {
-    margin-bottom: 1.25rem;
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
   }
-  .project-card:last-child {
-    margin-bottom: 0;
+  .project-group__tag {
+    flex: 0 0 9rem;              /* fixed width so every project name starts at the same x-position */
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--global-text-color-light);
+    padding-top: 0.3rem;
+    white-space: nowrap;
   }
+  .project-group__items { flex: 1 1 auto; min-width: 0; }
+  .project-card { margin-bottom: 1.25rem; }
+  .project-card:last-child { margin-bottom: 0; }
   .project-card__title { margin: 0; font-size: 1.1rem; }
   .project-card__title a { text-decoration: none; }
   .project-card__title a:hover { text-decoration: underline; }
-  .project-card__desc {
-    margin: 0.35rem 0 0.5rem;
-    color: var(--global-text-color-light);
-  }
+  .project-card__desc { margin: 0.35rem 0 0.5rem; color: var(--global-text-color-light); }
   .project-card__links { display: flex; gap: 0.5rem; }
   .project-card__badge {
     font-size: 0.8rem;
@@ -50,12 +53,36 @@ author_profile: true
     color: var(--global-text-color);
   }
   .project-card__badge:hover { background: var(--global-border-color); }
+
+  @media (max-width: 600px) {
+    .post-year, .project-group { flex-direction: column; gap: 0.3rem; }
+    .post-year__label { flex: none; padding-top: 0.8rem; }
+    .project-group__tag { flex: none; }
+  }
 </style>
 
-<!-- <blockquote style="border-left: 4px solid #ccc; padding-left: 1rem;">
-  <p style="margin: 0 0 4px 0;">"Quality means doing it right when no one is looking."</p>
-  <cite style="display: block; margin: 0;"> Henry Ford</cite>
-</blockquote> -->
+<h2>Blog Posts</h2>
+
+{% if site.posts.size > 0 %}
+  {% assign sorted_posts = site.posts | sort: 'date' | reverse %}
+  {% assign posts_by_year = sorted_posts | group_by_exp: "p", "p.date | date: '%Y'" %}
+  {% for group in posts_by_year %}
+  <div class="post-year">
+    <div class="post-year__label">{{ group.name }}</div>
+    <div class="post-year__items">
+      {% for item in group.items %}
+      <div class="post-item">
+        <div class="post-item__title"><a href="{{ item.url | relative_url }}">{{ item.title }}</a></div>
+        <div class="post-item__meta">{{ item.date | date: "%B %-d, %Y" }}</div>
+        {% if item.summary %}<div class="post-item__summary">{{ item.summary }}</div>{% endif %}
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+  {% endfor %}
+{% else %}
+  <p><em>No posts yet — check back soon.</em></p>
+{% endif %}
 
 <h2>Side Projects</h2>
 {% if site.portfolio.size > 0 %}
@@ -73,15 +100,4 @@ author_profile: true
   {% endfor %}
 {% else %}
   <p><em>No side projects yet — check back soon.</em></p>
-{% endif %}
-
-<h2>Blog Posts</h2>
-<!--<p>I will be discussing some interesting topics related to (probably not directly) to my research on this page.</p> -->
-
-{% if site.posts.size > 0 %}
-  {% for post in site.posts %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% else %}
-  <p><em>No posts yet — check back soon.</em></p>
 {% endif %}
