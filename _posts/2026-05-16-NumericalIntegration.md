@@ -124,9 +124,9 @@ This leads naturally to Bayesian quadrature, active learning, and sequential exp
 In my research on computer model calibration, Gaussian processes, and sequential design, numerical integration appears in several forms:
 
 1. **Bayesian inference:** Computing posterior expectations and integrating over uncertain model parameters.
-2. **Model calibration:** Evaluating integrated discrepancy measures between computer simulations and physical observations.
-3. **Uncertainty quantification:** Integrating predictive covariance functions to measure overall uncertainty.
-4. **Sequential design:** Selecting new simulation or experimental inputs that reduce integrated predictive uncertainty.
+<!--2. **Model calibration:** Evaluating integrated discrepancy measures between computer simulations and physical observations.-->
+2. **Uncertainty quantification:** Integrating predictive covariance functions to measure overall uncertainty.
+3. **Sequential design:** Selecting new simulation or experimental inputs that reduce integrated predictive uncertainty.
 
 For instance, integrated mean squared prediction error (IMSPE) criteria are closely related to numerical integration:
 
