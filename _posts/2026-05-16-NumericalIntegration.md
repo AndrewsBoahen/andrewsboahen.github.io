@@ -4,7 +4,7 @@ title: 'Numerical Quadrature: A Simple Tool Behind Complex Scientific Models'
 collection: posts
 permalink: /posts/2026-05-16-QuadratureMethods/
 date: 2026-05-16
-tags: [Numerical Integration, uncertainty quantification, applications in nuclear physics, Approximation techniques]
+tags: [Numerical Integration, uncertainty quantification, Applications in nuclear physics, Approximation techniques]
 mermaid: true
 ---
 
