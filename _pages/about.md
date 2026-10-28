@@ -9,7 +9,7 @@ redirect_from:
 <!--{: .notice--success .large-quote}-->
 > "We are a sum total of what we have learned from all who have taught us, both great and small."~ *Dr. Myles munroe* 
 
-Hi! I'm Andrews Boahen, a Doctoral Candidate in the [Department of Statistics & Probability](https://stt.natsci.msu.edu) at Michigan State University, where I also earned my M.S. in Statistics en route to the Ph.D. Under the mentorship of [Dr. Chih-Li Sung](https://chihli.github.io), I develop methods for computer model calibration and active learning. 
+Hi! I'm Andrews Boahen, a Doctoral Candidate in the [Department of Statistics & Probability](https://stt.natsci.msu.edu) at Michigan State University, where I also earned my M.S. in Statistics en route to the Ph.D. Under the mentorship of [Dr. Chih-Li Sung](https://chihli.github.io), I develop methods for statistical learning, adaptive experimental design and uncertainty quantification for complex systems.. 
 
 Before coming to MSU, I earned a first-class B.Sc. in Actuarial Science from the [Department of Statistics & Actuarial Science](https://www.ug.edu.gh/statistics/home) at the [University of Ghana](https://www.ug.edu.gh) and an M.S. in Mathematical Sciences with distinction from the African Institute for Mathematical Sciences ([AIMS-Ghana](https://aims.edu.gh)), where I worked on large-deviation and extreme-value theory under the supervision of [Prof. Kwabena Doku-Amponsah](https://www.ug.edu.gh/statistics/people/prof-kwabena-doku-amponsah).
 
