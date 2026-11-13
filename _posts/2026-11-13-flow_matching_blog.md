@@ -133,6 +133,36 @@ Therefore $X_1=2+2X_0\sim\mathcal N(2,4)$, as required. The same calculation als
 
 A useful plot for this example overlays the Gaussian densities at $t=0,0.25,0.5,0.75,1$, and a second plot traces trajectories $x_t=2t+(1+t)z$ for selected initial values $z$.
 
+
+### Illustration
+
+Consider transporting samples from
+
+$$
+X_0 \sim \mathcal N(0,1)
+$$
+
+to
+
+$$
+X_1 \sim \mathcal N(2,4).
+$$
+
+The intermediate probability path is
+
+$$
+X_t \sim \mathcal N(2t,(1+t)^2).
+$$
+
+The following animation illustrates the evolution
+of the probability density as $t$ varies from 0 to 1.
+
+![One-dimensional flow matching animation](/files/flow_matching_1d.gif)
+
+*Figure 1: Evolution of a Gaussian distribution under
+the flow matching velocity field.*
+
+
 ## 4. Worked example II: transporting a two-dimensional Gaussian
 
 Now let the initial distribution be isotropic,
