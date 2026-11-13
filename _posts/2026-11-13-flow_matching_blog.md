@@ -181,13 +181,13 @@ $$X_1=\mu+AZ\sim\mathcal N_2(\mu,AA^\top)=\mathcal N_2(\mu,\Sigma).$$
 
 For a visualization, plot Gaussian contour ellipses at five times and draw arrows for $v_t(x)$ at a fixed intermediate time. A particle scatter animation shows the initially circular cloud shifting toward $(2,-1)$ and becoming tilted and elongated.
 
-## 5. From the toy examples to modern generative modeling
+<!-- ## 5. From the toy examples to modern generative modeling
 
 The Gaussian examples have simple exact solutions because we deliberately chose linear transformations. Real data distributions can be multimodal, curved, or concentrated near complicated lower-dimensional structures. In those settings, we generally cannot write down the velocity analytically, and a neural network becomes useful.
 
 Nevertheless, the algorithmic structure remains the same: choose a reference distribution, select a probability path or endpoint coupling, sample training times and locations, regress a vector field onto target velocities, and integrate the learned ODE to generate new observations.
 
-Flow matching does not make the choice of path irrelevant. Different paths can change the complexity of the learned field and the numerical cost of sampling. It is useful to think of flow matching as **learning the dynamics of probability transport**, rather than learning the probability density itself.
+Flow matching does not make the choice of path irrelevant. Different paths can change the complexity of the learned field and the numerical cost of sampling. It is useful to think of flow matching as **learning the dynamics of probability transport**, rather than learning the probability density itself.-->
 
 ## Further reading
 
