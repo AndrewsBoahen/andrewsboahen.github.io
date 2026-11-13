@@ -2,6 +2,10 @@
 
 *An intuitive and mathematical introduction with worked examples in one and two dimensions.*
 
+I thought about  writing this post as I am learning/reading about flow matching in order to present it in our reading group (Dr. Sung's reading group). Generative modeling is a fascinating field to me and I am always interested in reading about and interacting with the ideas in the field. What baffles me mostly is the bijection we can establish between the core ideas and some basic concepts we learnt in either high school or during early undergrad days.
+
+This particular post is about flow matching (other group members have already presented on score matching and diffusion models). We start by looking at the conceptual difference between these three generative modeling paradigms.
+
 ## 1. Flow matching, score matching, and diffusion models: what is the difference?
 
 Generative modeling begins with a simple question: how can we produce new samples resembling observations from a complicated probability distribution? One approach starts with a simple reference distribution, often a standard Gaussian, and learns a mechanism for transforming its samples into samples from the distribution of interest.
