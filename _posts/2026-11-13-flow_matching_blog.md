@@ -1,4 +1,12 @@
-# Flow Matching: From Probability Paths to Generative Models
+---
+layout: single
+title: 'Flow Matching: From Probability Paths to Generative Models'
+collection: posts
+permalink: /posts/2026-11-13-flow_matching_blog.md/
+date: 2026-11-13
+tags: [generative models, flow matching, differential equations]
+mermaid: true
+---
 
 *An intuitive and mathematical introduction with worked examples in one and two dimensions.*
 
