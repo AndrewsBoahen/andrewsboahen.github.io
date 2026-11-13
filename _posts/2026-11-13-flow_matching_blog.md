@@ -162,6 +162,69 @@ of the probability density as $t$ varies from 0 to 1.
 *Figure 1: Evolution of a Gaussian distribution under
 the flow matching velocity field.*
 
+```python
+
+import numpy as np
+import matplotlib.pyplot as plt
+from matplotlib.animation import FuncAnimation, PillowWriter
+from scipy.stats import norm
+
+# Reproducibility
+rng = np.random.default_rng(42)
+
+# Initial particles
+n = 1000
+x0 = rng.normal(0, 1, n)
+
+# Time-dependent flow
+def flow(x0, t):
+    return 2*t + (1+t)*x0
+
+def velocity(x, t):
+    return (x + 2)/(1+t)
+
+# Plot setup
+fig, ax = plt.subplots(figsize=(8, 4.5))
+xgrid = np.linspace(-5, 9, 500)
+
+line, = ax.plot([], [], lw=2.5, label="Density at t")
+initial = norm.pdf(xgrid, 0, 1)
+ax.plot(xgrid, initial, "--", color="gray",
+        alpha=0.6, label="Initial density")
+
+ax.set_xlim(-5, 9)
+ax.set_ylim(0, 0.45)
+ax.set_xlabel("x")
+ax.set_ylabel("Probability density")
+ax.legend()
+
+def update(frame):
+    t = frame / 100
+
+    mu = 2*t
+    sigma = 1+t
+
+    density = norm.pdf(xgrid, mu, sigma)
+    line.set_data(xgrid, density)
+
+    ax.set_title(f"1D Flow Matching: t = {t:.2f}")
+
+    return line,
+
+animation = FuncAnimation(
+    fig, update, frames=101,
+    interval=50, blit=True
+)
+
+animation.save(
+    "flow_matching_1d.gif",
+    writer=PillowWriter(fps=20)
+)
+
+plt.show()
+
+```
+
 
 ## 4. Worked example II: transporting a two-dimensional Gaussian
 
