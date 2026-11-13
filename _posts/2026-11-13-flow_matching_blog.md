@@ -129,9 +129,7 @@ Since $d\log(X_t+2)/dt=1/(1+t)$ wherever the logarithm is defined (or equivalent
 
 $$X_t+2=(X_0+2)(1+t),\qquad X_t=2t+(1+t)X_0.$$
 
-Therefore $X_1=2+2X_0\sim\mathcal N(2,4)$, as required. The same calculation also verifies that the mean increases linearly while the standard deviation grows from 1 to 2.
-
-A useful plot for this example overlays the Gaussian densities at $t=0,0.25,0.5,0.75,1$, and a second plot traces trajectories $x_t=2t+(1+t)z$ for selected initial values $z$.
+Therefore $X_1=2+2X_0\sim\mathcal N(2,4)$, as required. 
 
 
 ### Illustration
