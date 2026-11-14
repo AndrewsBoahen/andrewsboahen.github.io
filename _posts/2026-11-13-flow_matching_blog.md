@@ -234,7 +234,7 @@ and choose a target with a shifted center and correlated coordinates:
 
 $$X_1\sim\mathcal N_2\!\left(\underbrace{\begin{bmatrix}2\\-1\end{bmatrix}}_{\mu},\underbrace{\begin{bmatrix}4&1\\1&1\end{bmatrix}}_{\Sigma}\right).$$
 
-The covariance matrix is positive definite because its leading principal minors are $4>0$ and $\det(\Sigma)=3>0$.
+The covariance matrix is positive definite because its leading principal minor is $4>0$ and $\det(\Sigma)=3>0$.
 
 Take the symmetric positive-definite square root $A=\Sigma^{1/2}$ and let $Z\sim\mathcal N_2(0,I_2)$. Couple the endpoints by
 
