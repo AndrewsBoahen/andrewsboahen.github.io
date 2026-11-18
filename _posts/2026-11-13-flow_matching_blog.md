@@ -282,7 +282,7 @@ Flow matching does not make the choice of path irrelevant. Different paths can c
 
 ## Further reading
 
-- Lipman, Y. et al. (2023). *Flow Matching for Generative Modeling*. ICLR. https://arxiv.org/abs/2210.02747
-- Song, Y. et al. (2021). *Score-Based Generative Modeling through Stochastic Differential Equations*. ICLR. https://arxiv.org/abs/2011.13456
-- Hyvärinen, A. (2005). *Estimation of Non-Normalized Statistical Models by Score Matching*. Journal of Machine Learning Research. https://jmlr.org/papers/v6/hyvarinen05a.html
-- Ho, J., Jain, A., and Abbeel, P. (2020). *Denoising Diffusion Probabilistic Models*. NeurIPS. https://arxiv.org/abs/2006.11239
+- Lipman, Y. et al. (2023). *Flow Matching for Generative Modeling*. ICLR. [https://arxiv.org/pdf/2210.02747](https://arxiv.org/abs/2210.02747)
+- Song, Y. et al. (2021). *Score-Based Generative Modeling through Stochastic Differential Equations*. ICLR. [https://arxiv.org/pdf/2011.13456](https://arxiv.org/abs/2011.13456)
+- Hyvärinen, A. (2005). *Estimation of Non-Normalized Statistical Models by Score Matching*. Journal of Machine Learning Research. [https://jmlr.org/papers/volume6/hyvarinen05a/hyvarinen05a.pdf](https://jmlr.org/papers/v6/hyvarinen05a.html)
+- Ho, J., Jain, A., and Abbeel, P. (2020). *Denoising Diffusion Probabilistic Models*. NeurIPS. [https://arxiv.org/pdf/2006.11239](https://arxiv.org/abs/2006.11239)
